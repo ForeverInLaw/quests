@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &8Obtain 1 Iron Horse Armor"
     - "&8■ &7Прогресс: &8{obtain:progress}/1 iron horse armor"
     - ""
-    - "&8Rewards:"
+    - "&8Награды:"
     - "&8■ &7Вы получите &a&l$&a100&7."
     - ""
   lore-started:

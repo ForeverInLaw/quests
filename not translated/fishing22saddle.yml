@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &3Catch 1 Saddle."
     - "&8■ &7Прогресс: &3{saddle:progress}/1 saddle."
     - ""
-    - "&3Rewards:"
+    - "&3Награды:"
     - "&8■ &7Вы получите &a&l$&a100&7."
     - ""
   lore-started:

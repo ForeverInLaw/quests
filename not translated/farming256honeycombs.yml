@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &dCollect 256 Honey Combs."
     - "&8■ &7Прогресс: &d{collect:progress}/256 honey combs."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a600&7."
     - ""
   lore-started:

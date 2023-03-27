@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dPlant 128 Oak Saplings."
     - "&8■ &7Прогресс: &d{plant:progress}/128 Oak saplings."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a600&7."
     - ""
   lore-started:

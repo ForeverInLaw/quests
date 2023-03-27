@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &aCollect 64 Emerald."
     - "&8■ &7Прогресс: &a{collect:progress}/64 emerald."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."
     - ""
   lore-started:

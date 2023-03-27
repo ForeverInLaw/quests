@@ -12,7 +12,7 @@ display:
     - "&8■ &7Цель: &cKill 25 Players."
     - "&8■ &7Прогресс: &c{kill:progress}/25 players."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1500&7."
     - ""
   lore-started:

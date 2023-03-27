@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &fCraft 10 Crafting Tables."
     - "&8■ &7Прогресс: &f{crafting:progress}/10 crafting tables"
     - ""
-    - "&fRewards:"
+    - "&fНаграды:"
     - "&8■ &7Вы получите &a&l$&a150&7."
     - ""
   lore-started:

@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &bMine 1152 Basalt."
     - "&8■ &7Прогресс: &b{mine:progress}/1152 basalt."
     - ""
-    - "&bRewards:"
+    - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a2000&7."
     - ""
   lore-started:

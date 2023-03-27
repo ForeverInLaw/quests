@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &aMine 704 End Stone."
     - "&8■ &7Прогресс: &a{mine:progress}/704 endstone."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &d315 exp&7."
     - ""
   lore-started:

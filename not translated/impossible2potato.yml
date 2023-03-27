@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &4Harvest 2304 potato crops."
     - "&8■ &7Прогресс: &4{harvest:progress}/2304 potato crops."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a3500&7."
     - ""
   lore-started:

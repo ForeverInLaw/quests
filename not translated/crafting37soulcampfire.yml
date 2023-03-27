@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &fCraft 9 Soul Campfire."
     - "&8■ &7Прогресс: &f{crafting:progress}/9 soul campfire"
     - ""
-    - "&fRewards:"
+    - "&fНаграды:"
     - "&8■ &7Вы получите &a&l$&a600&7."
     - ""
   lore-started:

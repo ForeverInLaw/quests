@@ -9,10 +9,10 @@ display:
     - "&8зелий before receiving the reward."
     - ""
     - "&4Options:"
-    - "&8■ &7Цель: &4Brew 500 potions."
-    - "&8■ &7Прогресс: &4{brew:progress}/500 potions."
+    - "&8■ &7Цель: &4Brew 500 зелий."
+    - "&8■ &7Прогресс: &4{brew:progress}/500 зелий."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a6500&7."
     - ""
   lore-started:

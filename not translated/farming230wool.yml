@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &dObtain 100 White Wool."
     - "&8■ &7Прогресс: &d{obtain:progress}/100 White wool."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

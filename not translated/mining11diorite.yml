@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &bMine 1152 Diorite."
     - "&8■ &7Прогресс: &b{mine:progress}/1152 Diorite."
     - ""
-    - "&bRewards:"
+    - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a1500&7."
     - ""
   lore-started:

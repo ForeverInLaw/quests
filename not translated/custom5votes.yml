@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &#34495eVote the server one time."
     - "&8■ &7Прогресс: &#34495e{votingplugin:progress}/1 vote"
     - ""
-    - "&#34495eRewards:"
+    - "&#34495eНаграды:"
     - "&8■ &7Вы получите &a[InsertPrize]&7."
     - ""
   lore-started:

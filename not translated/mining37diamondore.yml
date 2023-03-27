@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &bMine 50 Diamond Ore."
     - "&8■ &7Прогресс: &b{mine:progress}/50 Diamond ore."
     - ""
-    - "&bRewards:"
+    - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

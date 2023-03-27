@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &3Catch 32 Raw Salmon."
     - "&8■ &7Прогресс: &3{salmon:progress}/32 salmon."
     - ""
-    - "&3Rewards:"
+    - "&3Награды:"
     - "&8■ &7Вы получите &a&l$&a300&7."
     - ""
   lore-started:

@@ -16,7 +16,7 @@ display:
     - "&#34495eSell 64 pieces of the first item in the Blocks category"
     - "&8■ &7Прогресс: &#34495e{shopguisell:progress}/64 pieces"
     - ""
-    - "&#34495eRewards:"
+    - "&#34495eНаграды:"
     - "&8■ &7Вы получите &a[InsertPrize]&7."
     - ""
   lore-started:

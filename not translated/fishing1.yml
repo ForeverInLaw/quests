@@ -12,7 +12,7 @@ display:
     - "&8■ &7Цель: &3Catch 10 fish."
     - "&8■ &7Прогресс: &3{fishing:progress}/10 fish."
     - ""
-    - "&3Rewards:"
+    - "&3Награды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

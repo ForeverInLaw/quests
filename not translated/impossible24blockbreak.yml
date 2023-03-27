@@ -6,13 +6,13 @@ display:
   name: "&4Impossible Quest &8▪ &7Break Blocks"
   lore-normal:
     - "&8You need to break a certain amount"
-    - "&8of blocks before receiving the reward."
+    - "&8блоков до получения вознаграждения."
     - ""
     - "&4Options:"
     - "&8■ &7Цель: &4Break 38400 blocks."
     - "&8■ &7Прогресс: &4{break:progress}/38400 blocks."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a40000&7."
     - ""
   lore-started:

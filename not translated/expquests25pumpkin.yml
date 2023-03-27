@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &aHarvest 384 pumpkin."
     - "&8■ &7Прогресс: &a{harvest:progress}/384 pumpkin."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &d630 exp&7."
     - ""
   lore-started:

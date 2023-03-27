@@ -5,16 +5,16 @@ tasks:
     block: SPRUCE_LOG
     reverse-if-placed: true
 display:
-  name: "&6WoodCutting Quest &8▪ &7Spruce Log #3" 
+  name: "&6WoodCutting Quest &8▪ &7Дубовая древесина #3" 
   lore-normal:
     - "&8You need to cut a certain amount"
     - "&8wood before receiving the reward."
     - ""
     - "&6Options:"
-    - "&8■ &7Цель: &6Cut 192 Spruce Logs."
-    - "&8■ &7Прогресс: &6{cut:progress}/192 spruce logs."
+    - "&8■ &7Цель: &6Cut 192 Дубовая древесинаs."
+    - "&8■ &7Прогресс: &6{cut:progress}/192 Дубовая древесинаs."
     - ""
-    - "&6Rewards:"
+    - "&6Награды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."
     - ""
   lore-started:

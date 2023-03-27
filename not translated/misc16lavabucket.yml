@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &6Empty 16 buckets of lava."
     - "&8■ &7Прогресс: &6{misc:progress}/16 buckets"
     - ""
-    - "&6Rewards:"
+    - "&6Награды:"
     - "&8■ &7Вы получите &a&l$&a320&7."
     - ""
   lore-started:

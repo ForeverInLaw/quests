@@ -8,13 +8,13 @@ display:
   name: "&eDigging Quest &8▪ &7Grass Block #4" 
   lore-normal:
     - "&8You need to dig a certain amount"
-    - "&8of blocks before receiving the reward."
+    - "&8блоков до получения вознаграждения."
     - ""
     - "&eОпции:"
     - "&8■ &7Цель: &eDig 256 Grass Blocks."
     - "&8■ &7Прогресс: &e{dig:progress}/256 grass blocks."
     - ""
-    - "&eRewards:"
+    - "&eНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."
     - ""
   lore-started:

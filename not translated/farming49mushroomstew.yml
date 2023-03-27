@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &dCook 8 Mushroom Stews."
     - "&8■ &7Прогресс: &d{cook:progress}/8 Mushroom Stews."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a100&7."
     - ""
   lore-started:

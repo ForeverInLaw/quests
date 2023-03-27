@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 50 Horses."
     - "&8■ &7Прогресс: &c{kill:progress}/50 horses."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."
     - ""
   lore-started:

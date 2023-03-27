@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &dBake 25 cakes."
     - "&8■ &7Прогресс: &d{bake:progress}/25 cakes."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a900&7."
     - ""
   lore-started:

@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &bMine 384 Orange Terracotta."
     - "&8■ &7Прогресс: &b{mine:progress}/384 Orange terracotta."
     - ""
-    - "&bRewards:"
+    - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

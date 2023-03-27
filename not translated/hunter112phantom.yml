@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 200 Phantoms."
     - "&8■ &7Прогресс: &c{kill:progress}/200 phantoms."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1500&7."
     - ""
   lore-started:

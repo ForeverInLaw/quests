@@ -5,16 +5,16 @@ tasks:
     block: OAK_LOG
     reverse-if-placed: true    
 display:
-  name: "&4Impossible Quest &8▪ &7Oak Log"
+  name: "&4Impossible Quest &8▪ &7Дубовая древесина"
   lore-normal:
     - "&8You need to cut a certain amount"
     - "&8wood before receiving the reward."
     - ""
     - "&4Options:"
-    - "&8■ &7Цель: &4Cut 2304 Oak Logs."
-    - "&8■ &7Прогресс: &4{cut:progress}/2304 oak logs."
+    - "&8■ &7Цель: &4Cut 2304 Дубовая древесина."
+    - "&8■ &7Прогресс: &4{cut:progress}/2304 Дубовая древесина."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a22500&7."
     - ""
   lore-started:

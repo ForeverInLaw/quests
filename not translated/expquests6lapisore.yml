@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &aMine 125 Lapis Ore."
     - "&8■ &7Прогресс: &a{mine:progress}/125 lapis ore."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &d1260 exp&7."
     - ""
   lore-started:

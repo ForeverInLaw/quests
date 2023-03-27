@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &4Mine 19200 Stone."
     - "&8■ &7Прогресс: &4{mine:progress}/19200 stone."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a15000&7."
     - ""
   lore-started:

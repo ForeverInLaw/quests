@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 64 Dolphins."
     - "&8■ &7Прогресс: &c{kill:progress}/64 dolphins."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."
     - ""
   lore-started:

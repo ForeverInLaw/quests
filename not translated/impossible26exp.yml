@@ -12,7 +12,7 @@ display:
     - "&8■ &7Цель: &4Earn 120 experience levels."
     - "&8■ &7Прогресс: &4{exp:progress}/47520 experience."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a7500&7."
     - ""
   lore-started:

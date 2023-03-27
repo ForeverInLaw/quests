@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &dCollect 96 Leather."
     - "&8■ &7Прогресс: &d{collect:progress}/96 Leather."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a400&7."
     - ""
   lore-started:

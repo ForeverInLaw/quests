@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &aCollect 576 Wheat Seeds."
     - "&8■ &7Прогресс: &a{collect:progress}/576 Wheat seeds."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &a&l$&a550&7."
     - ""
   lore-started:

@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &aCollect 200 Ghast Tear."
     - "&8■ &7Прогресс: &a{collect:progress}/200 Ghast tear."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."
     - ""
   lore-started:

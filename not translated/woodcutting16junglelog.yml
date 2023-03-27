@@ -5,16 +5,16 @@ tasks:
     block: JUNGLE_LOG
     reverse-if-placed: true
 display:
-  name: "&6WoodCutting Quest &8▪ &7Jungle Log #4" 
+  name: "&6WoodCutting Quest &8▪ &7Джунглевая древесина #4" 
   lore-normal:
     - "&8You need to cut a certain amount"
     - "&8wood before receiving the reward."
     - ""
     - "&6Options:"
-    - "&8■ &7Цель: &6Cut 256 Jungle Logs."
-    - "&8■ &7Прогресс: &6{cut:progress}/256 jungle logs."
+    - "&8■ &7Цель: &6Cut 256 Джунглевая древесина."
+    - "&8■ &7Прогресс: &6{cut:progress}/256 Джунглевая древесина."
     - ""
-    - "&6Rewards:"
+    - "&6Награды:"
     - "&8■ &7Вы получите &a&l$&a1750&7."
     - ""
   lore-started:

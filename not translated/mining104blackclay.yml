@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &bMine 384 Black Terracotta."
     - "&8■ &7Прогресс: &b{mine:progress}/384 Black terracotta."
     - ""
-    - "&bRewards:"
+    - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &fCraft 64 Scaffolding."
     - "&8■ &7Прогресс: &f{crafting:progress}/64 scaffolding"
     - ""
-    - "&fRewards:"
+    - "&fНаграды:"
     - "&8■ &7Вы получите &a&l$&a250&7."
     - ""
   lore-started:

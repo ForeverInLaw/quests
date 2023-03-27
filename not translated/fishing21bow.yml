@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &3Catch 1 Bow."
     - "&8■ &7Прогресс: &3{bow:progress}/1 bow."
     - ""
-    - "&3Rewards:"
+    - "&3Награды:"
     - "&8■ &7Вы получите &a&l$&a50&7."
     - ""
   lore-started:

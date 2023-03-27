@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &aCollect 400 Phantom Membranes."
     - "&8■ &7Прогресс: &a{collect:progress}/400 Phantom membranes."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."
     - ""
   lore-started:

@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &bMine 100 Coal Ore."
     - "&8■ &7Прогресс: &b{mine:progress}/100 Coal ore."
     - ""
-    - "&bRewards:"
+    - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &8Forge 1 Iron Axe"
     - "&8■ &7Прогресс: &8{forge:progress}/1 iron axe"
     - ""
-    - "&8Rewards:"
+    - "&8Награды:"
     - "&8■ &7Вы получите &a&l$&a100&7."
     - ""
   lore-started:

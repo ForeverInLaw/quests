@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &4Harvest 1152 melons."
     - "&8■ &7Прогресс: &4{harvest:progress}/1152 melons."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a4000&7."
     - ""
   lore-started:

@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 5 Elder Guardian."
     - "&8■ &7Прогресс: &c{kill:progress}/5 Elder Guardian."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a5000&7."
     - ""
   lore-started:

@@ -5,16 +5,16 @@ tasks:
     block: DARK_OAK_LOG
     reverse-if-placed: true
 display:
-  name: "&6WoodCutting Quest &8▪ &7Dark Oak Log" 
+  name: "&6WoodCutting Quest &8▪ &7Древесина тёмного дуба" 
   lore-normal:
     - "&8You need to cut a certain amount"
     - "&8wood before receiving the reward."
     - ""
     - "&6Options:"
-    - "&8■ &7Цель: &6Cut 64 Dark Oak Log."
-    - "&8■ &7Прогресс: &6{cut:progress}/64 dark oak logs."
+    - "&8■ &7Цель: &6Cut 64 Древесина тёмного дуба."
+    - "&8■ &7Прогресс: &6{cut:progress}/64 Древесина тёмного дуба."
     - ""
-    - "&6Rewards:"
+    - "&6Награды:"
     - "&8■ &7Вы получите &a&l$&a250&7."
     - ""
   lore-started:

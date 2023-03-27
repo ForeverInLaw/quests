@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dBreak 192 Grass."
     - "&8■ &7Прогресс: &d{break:progress}/192 grass."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a150&7."
     - ""
   lore-started:

@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dBreak 150 Dead Bushes."
     - "&8■ &7Прогресс: &d{break:progress}/150 Dead Bushes."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a550&7."
     - ""
   lore-started:

@@ -5,16 +5,16 @@ tasks:
     block: "QUARTZ_BRICKS"
     reverse-if-broken: true
 display:
-  name: "&2Building Quest &8▪ &7Quartz Bricks" 
+  name: "&2Строительный квест &8▪ &7Quartz Bricks" 
   lore-normal:
-    - "&8You need to place a certain amount"
-    - "&8of blocks before receiving the reward."
+    - "&8Вам необходимо разместить определенное количество"
+    - "&8блоков до получения вознаграждения."
     - ""
-    - "&2Options:"
-    - "&8■ &7Цель: &2Place 64 Quartz Bricks."
+    - "&2Опции:"
+    - "&8■ &7Цель: &2Поставить 64 Quartz Bricks."
     - "&8■ &7Прогресс: &2{build:progress}/64 Quartz Bricks"
     - ""
-    - "&2Rewards:"
+    - "&2Награды:"
     - "&8■ &7Вы получите &a&l$&a750&7."
     - ""
   lore-started:

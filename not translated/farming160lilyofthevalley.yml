@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dBreak 128 Lily of the Valley."
     - "&8■ &7Прогресс: &d{break:progress}/128 Lily of the Valley."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."
     - ""
   lore-started:

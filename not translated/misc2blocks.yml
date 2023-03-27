@@ -12,7 +12,7 @@ display:
     - "&8■ &7Цель: &6Walk 5.000 Blocks."
     - "&8■ &7Прогресс: &6{misc:progress}/5.000 blocks"
     - ""
-    - "&6Rewards:"
+    - "&6Награды:"
     - "&8■ &7Вы получите &a&l$&a1500&7."
     - ""
   lore-started:

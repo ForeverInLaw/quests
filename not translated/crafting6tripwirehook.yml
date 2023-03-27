@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &fCraft 64 Tripwire Hook."
     - "&8■ &7Прогресс: &f{crafting:progress}/64 tripwire hook"
     - ""
-    - "&fRewards:"
+    - "&fНаграды:"
     - "&8■ &7Вы получите &a&l$&a150&7."
     - ""
   lore-started:

@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &aCollect 200 Iron Ingot."
     - "&8■ &7Прогресс: &a{collect:progress}/200 iron ingot."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

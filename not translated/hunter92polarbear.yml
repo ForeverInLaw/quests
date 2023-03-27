@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 64 Polar Bears."
     - "&8■ &7Прогресс: &c{kill:progress}/64 Polar Bears."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."
     - ""
   lore-started:

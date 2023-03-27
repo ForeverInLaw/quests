@@ -5,16 +5,16 @@ tasks:
     block: "CHISELED_POLISHED_BLACKSTONE"
     reverse-if-broken: true
 display:
-  name: "&2Building Quest &8▪ &7Chiseled Polished Blackstone" 
+  name: "&2Строительный квест &8▪ &7Chiseled Polished Blackstone" 
   lore-normal:
-    - "&8You need to place a certain amount"
-    - "&8of blocks before receiving the reward."
+    - "&8Вам необходимо разместить определенное количество"
+    - "&8блоков до получения вознаграждения."
     - ""
-    - "&2Options:"
-    - "&8■ &7Цель: &2Place 64 Chiseled Polished Blackstone."
+    - "&2Опции:"
+    - "&8■ &7Цель: &2Поставить 64 Chiseled Polished Blackstone."
     - "&8■ &7Прогресс: &2{build:progress}/64 Chiseled Polished Blackstone"
     - ""
-    - "&2Rewards:"
+    - "&2Награды:"
     - "&8■ &7Вы получите &a&l$&a650&7."
     - ""
   lore-started:

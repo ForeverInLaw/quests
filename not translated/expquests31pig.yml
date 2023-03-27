@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &aKill 100 pigs."
     - "&8■ &7Прогресс: &a{kill:progress}/100 pigs."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &d630 exp&7."
     - ""
   lore-started:

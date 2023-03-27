@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &aMine 256 Packed Ice."
     - "&8■ &7Прогресс: &a{mine:progress}/256 packed ice."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &d630 exp&7."
     - ""
   lore-started:

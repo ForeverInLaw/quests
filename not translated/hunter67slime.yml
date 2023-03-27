@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 96 Slimes."
     - "&8■ &7Прогресс: &c{kill:progress}/96 slimes."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."
     - ""
   lore-started:

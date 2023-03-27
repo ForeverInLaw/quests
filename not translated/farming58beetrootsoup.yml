@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &dCook 16 Beetroot Soup."
     - "&8■ &7Прогресс: &d{cook:progress}/16 Beetroot Soup."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a175&7."
     - ""
   lore-started:

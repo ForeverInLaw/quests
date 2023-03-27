@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &8Craft 8 Leads"
     - "&8■ &7Прогресс: &8{craft:progress}/8 leads"
     - ""
-    - "&8Rewards:"
+    - "&8Награды:"
     - "&8■ &7Вы получите &a&l$&a100&7."
     - ""
   lore-started:

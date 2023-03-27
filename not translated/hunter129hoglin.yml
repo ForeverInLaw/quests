@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 5 Hoglin."
     - "&8■ &7Прогресс: &c{kill:progress}/5 hoglin."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."
     - ""
   lore-started:

@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &dHarvest 150 Nether wart crops."
     - "&8■ &7Прогресс: &d{harvest:progress}/150 nether wart."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

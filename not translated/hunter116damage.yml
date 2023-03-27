@@ -12,7 +12,7 @@ display:
     - "&8■ &7Цель: &cDeal 1000 hearts of damage."
     - "&8■ &7Прогресс: &c{damage:progress}/2000 health points."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a10000&7."
     - ""
   lore-started:

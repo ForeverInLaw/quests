@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &6Cut 128 Crimson Stem."
     - "&8■ &7Прогресс: &6{cut:progress}/128 crimson stem."
     - ""
-    - "&6Rewards:"
+    - "&6Награды:"
     - "&8■ &7Вы получите &a&l$&a750&7."
     - ""
   lore-started:

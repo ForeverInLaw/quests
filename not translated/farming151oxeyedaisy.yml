@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dBreak 96 Oxeye Daisy."
     - "&8■ &7Прогресс: &d{break:progress}/96 Oxeye Daisy."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."
     - ""
   lore-started:

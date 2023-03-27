@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dHarvest 768 sugarcane."
     - "&8■ &7Прогресс: &d{harvest:progress}/768 sugarcane."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."
     - ""
   lore-started:

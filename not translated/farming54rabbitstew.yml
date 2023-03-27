@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &dCook 16 Rabbit Stews."
     - "&8■ &7Прогресс: &d{cook:progress}/16 Rabbit Stews."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a225&7."
     - ""
   lore-started:

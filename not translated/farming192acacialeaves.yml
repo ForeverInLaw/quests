@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dBreak 200 Acacia Leaves."
     - "&8■ &7Прогресс: &d{break:progress}/200 Acacia leaves."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a800&7."
     - ""
   lore-started:

@@ -12,7 +12,7 @@ display:
     - "&8■ &7Цель: &4Enchant 270 items."
     - "&8■ &7Прогресс: &4{enchant:progress}/270 items."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a7500&7."
     - ""
   lore-started:

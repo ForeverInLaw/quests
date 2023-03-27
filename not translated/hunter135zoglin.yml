@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 15 Zoglin."
     - "&8■ &7Прогресс: &c{kill:progress}/15 zoglin."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a2000&7."
     - ""
   lore-started:

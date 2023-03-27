@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &fCraft 1 Lodestone."
     - "&8■ &7Прогресс: &f{crafting:progress}/1 lodestone"
     - ""
-    - "&fRewards:"
+    - "&fНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

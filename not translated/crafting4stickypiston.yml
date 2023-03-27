@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &fCraft 32 Sticky Pistons."
     - "&8■ &7Прогресс: &f{crafting:progress}/32 sticky pistons"
     - ""
-    - "&fRewards:"
+    - "&fНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

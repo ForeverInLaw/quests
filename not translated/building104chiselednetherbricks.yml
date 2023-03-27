@@ -5,16 +5,16 @@ tasks:
     block: "CHISELED_NETHER_BRICKS"
     reverse-if-broken: true
 display:
-  name: "&2Building Quest &8▪ &7Chiseled Nether Bricks" 
+  name: "&2Строительный квест &8▪ &7Chiseled Nether Bricks" 
   lore-normal:
-    - "&8You need to place a certain amount"
-    - "&8of blocks before receiving the reward."
+    - "&8Вам необходимо разместить определенное количество"
+    - "&8блоков до получения вознаграждения."
     - ""
-    - "&2Options:"
-    - "&8■ &7Цель: &2Place 128 Chiseled Nether Bricks."
+    - "&2Опции:"
+    - "&8■ &7Цель: &2Поставить 128 Chiseled Nether Bricks."
     - "&8■ &7Прогресс: &2{build:progress}/128 Chiseled Nether Bricks"
     - ""
-    - "&2Rewards:"
+    - "&2Награды:"
     - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:

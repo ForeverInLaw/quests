@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &bMine 9600 Netherrack."
     - "&8■ &7Прогресс: &b{mine:progress}/9600 Netherrack."
     - ""
-    - "&bRewards:"
+    - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a2500&7."
     - ""
   lore-started:

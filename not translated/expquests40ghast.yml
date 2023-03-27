@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &aKill 20 Ghasts."
     - "&8■ &7Прогресс: &a{kill:progress}/20 ghasts."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &d2045 exp&7."
     - ""
   lore-started:

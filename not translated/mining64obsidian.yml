@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &bMine 128 Obsidian."
     - "&8■ &7Прогресс: &b{mine:progress}/128 Obsidian."
     - ""
-    - "&bRewards:"
+    - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."
     - ""
   lore-started:

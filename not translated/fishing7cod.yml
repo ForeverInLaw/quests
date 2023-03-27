@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &3Catch 128 Raw Cod."
     - "&8■ &7Прогресс: &3{cod:progress}/128 cod."
     - ""
-    - "&3Rewards:"
+    - "&3Награды:"
     - "&8■ &7Вы получите &a&l$&a750&7."
     - ""
   lore-started:

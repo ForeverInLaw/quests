@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dBreak 32 Crimson Fungus."
     - "&8■ &7Прогресс: &d{break:progress}/32 crimson fungus."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a150&7."
     - ""
   lore-started:

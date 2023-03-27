@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &dHarvest 50 carrot crops."
     - "&8■ &7Прогресс: &d{harvest:progress}/50 carrot crops."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a150&7."
     - ""
   lore-started:

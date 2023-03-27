@@ -11,10 +11,10 @@ display:
     - "&8wood before receiving the reward."
     - ""
     - "&6Options:"
-    - "&8■ &7Цель: &6Cut 192 Oak Logs."
-    - "&8■ &7Прогресс: &6{cut:progress}/192 oak logs."
+    - "&8■ &7Цель: &6Cut 192 Дубовая древесина."
+    - "&8■ &7Прогресс: &6{cut:progress}/192 Дубовая древесина."
     - ""
-    - "&6Rewards:"
+    - "&6Награды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."
     - ""
   lore-started:

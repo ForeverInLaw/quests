@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &4Harvest 3456 cactus."
     - "&8■ &7Прогресс: &4{harvest:progress}/3456 cactus."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a6500&7."
     - ""
   lore-started:

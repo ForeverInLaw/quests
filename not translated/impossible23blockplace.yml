@@ -5,14 +5,14 @@ tasks:
 display:
   name: "&4Impossible Quest &8▪ &7Place Blocks"
   lore-normal:
-    - "&8You need to place a certain amount"
-    - "&8of blocks before receiving the reward."
+    - "&8Вам необходимо разместить определенное количество"
+    - "&8блоков до получения вознаграждения."
     - ""
     - "&4Options:"
     - "&8■ &7Цель: &4Place 5760 blocks."
     - "&8■ &7Прогресс: &4{build:progress}/5760 blocks."
     - ""
-    - "&4Rewards:"
+    - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a10000&7."
     - ""
   lore-started:

@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &aHarvest 192 bamboo."
     - "&8■ &7Прогресс: &a{harvest:progress}/192 bamboo."
     - ""
-    - "&aRewards:"
+    - "&aНаграды:"
     - "&8■ &7Вы получите &d315 exp&7."
     - ""
   lore-started:

@@ -15,7 +15,7 @@ display:
     - "&8■ &7Цель: &8Craft 1 Bow"
     - "&8■ &7Прогресс: &8{craft:progress}/1 bow"
     - ""
-    - "&8Rewards:"
+    - "&8Награды:"
     - "&8■ &7Вы получите &a&l$&a50&7."
     - ""
   lore-started:

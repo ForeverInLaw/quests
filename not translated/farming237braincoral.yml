@@ -14,7 +14,7 @@ display:
     - "&8■ &7Цель: &dBreak 32 Brain Coral."
     - "&8■ &7Прогресс: &d{break:progress}/32 brain coral."
     - ""
-    - "&dRewards:"
+    - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a150&7."
     - ""
   lore-started:

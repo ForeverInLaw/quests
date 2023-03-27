@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &cKill 128 Pillagers."
     - "&8■ &7Прогресс: &c{kill:progress}/128 pillagers."
     - ""
-    - "&cRewards:"
+    - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1750&7."
     - ""
   lore-started:

@@ -13,7 +13,7 @@ display:
     - "&8■ &7Цель: &#34495eEarn 5.000$"
     - "&8■ &7Прогресс: &#34495e{essentialsmoney:progress}/5000"
     - ""
-    - "&#34495eRewards:"
+    - "&#34495eНаграды:"
     - "&8■ &7Вы получите &a[InsertPrize]&7."
     - ""
   lore-started:
