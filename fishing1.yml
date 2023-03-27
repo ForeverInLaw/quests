@@ -1,0 +1,44 @@
+tasks:
+  fishing:
+    type: "fishing"
+    amount: 10
+display:
+  name: "&3Fishing Quest &8▪ &7Fishing" 
+  lore-normal:
+    - "&8You need to catch a certain amount"
+    - "&8of fish before receiving the reward."
+    - ""
+    - "&3Options:"
+    - "&8■ &7Цель: &3Catch 10 fish."
+    - "&8■ &7Прогресс: &3{fishing:progress}/10 fish."
+    - ""
+    - "&3Rewards:"
+    - "&8■ &7Вы получите &a&l$&a500&7."
+    - ""
+  lore-started:
+    - "&e▲ Квест был начат."
+  type: "FISHING_ROD"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7По завершении этого задания вы будете вознаграждены"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "cmi money give {player} 500"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a500 &7было добавлено к вашему игровому балансу."
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+#### TOOSIE NOTE: I removed this section to get rid of all errors when doing /quests a reload.
+ #### I will add it only to people who need it, so contact me on discord if you do.
+
+options:
+  category: "fishing"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

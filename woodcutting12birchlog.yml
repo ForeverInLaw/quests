@@ -1,0 +1,47 @@
+tasks:
+  cut:
+    type: "blockbreakcertain"
+    amount: 256
+    block: BIRCH_LOG
+    reverse-if-placed: true
+display:
+  name: "&6WoodCutting Quest &8▪ &7Birch Log #4" 
+  lore-normal:
+    - "&8You need to cut a certain amount"
+    - "&8wood before receiving the reward."
+    - ""
+    - "&6Options:"
+    - "&8■ &7Цель: &6Cut 256 Birch Logs."
+    - "&8■ &7Прогресс: &6{cut:progress}/256 birch logs."
+    - ""
+    - "&6Rewards:"
+    - "&8■ &7Вы получите &a&l$&a1750&7."
+    - ""
+  lore-started:
+    - "&e▲ Квест был начат."
+  type: "BIRCH_LOG"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7По завершении этого задания вы будете вознаграждены"
+  - " &8■ &a&l$&a1750"
+rewards:
+  - "cmi money give {player} 1750"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a1750 &7было добавлено к вашему игровому балансу."
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+#### TOOSIE NOTE: I removed this section to get rid of all errors when doing /quests a reload.
+ #### I will add it only to people who need it, so contact me on discord if you do.
+
+options:
+  category: "woodcutting"
+  requires:
+    - "woodcutting11birchlog"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 12

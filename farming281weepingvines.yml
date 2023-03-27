@@ -1,0 +1,47 @@
+tasks:
+  break:
+    type: "blockbreakcertain"
+    amount: 200
+    block: "WEEPING_VINES"
+    reverse-if-placed: true
+display:
+  name: "&dFarming Quest &8▪ &7Weeping Vines #4"
+  lore-normal:
+    - "&8You need to break a certain"
+    - "&8resource before receiving the reward."
+    - ""
+    - "&dOptions:"
+    - "&8■ &7Цель: &dBreak 200 Weeping Vines."
+    - "&8■ &7Прогресс: &d{break:progress}/200 weeping vines."
+    - ""
+    - "&dRewards:"
+    - "&8■ &7Вы получите &a&l$&a1000&7."
+    - ""
+  lore-started:
+    - "&e▲ Квест был начат."
+  type: "WEEPING_VINES"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7По завершении этого задания вы будете вознаграждены"
+  - " &8■ &a&l$&a1000"
+rewards:
+  - "cmi money give {player} 1000"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a1000 &7было добавлено к вашему игровому балансу."
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+#### TOOSIE NOTE: I removed this section to get rid of all errors when doing /quests a reload.
+ #### I will add it only to people who need it, so contact me on discord if you do.
+
+options:
+  category: "farming"
+  requires:
+    - "farming280weepingvines"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 281
