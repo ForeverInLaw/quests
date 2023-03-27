@@ -7,9 +7,9 @@ display:
   name: "&8Weaponsmith Quest &8▪ &7Anvil" 
   lore-normal:
     - "&8Вам необходимо разместить определенное количество"
-    - "&8of items before receiving the reward."
+    - "&8предметов перед получением награды."
     - ""
-    - "&8Options:"
+    - "&8Опции:"
     - "&8■ &7Цель: &8Place 6 Anvils"
     - "&8■ &7Прогресс: &8{place:progress}/6 anvils"
     - ""

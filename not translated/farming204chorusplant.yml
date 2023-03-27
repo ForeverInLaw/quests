@@ -8,9 +8,9 @@ display:
   name: "&dFarming Quest &8▪ &7Chorus Plant #4"
   lore-normal:
     - "&8You need to break a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dBreak 200 Chorus Plants."
     - "&8■ &7Прогресс: &d{break:progress}/200 Chorus plants."
     - ""

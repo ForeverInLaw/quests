@@ -9,9 +9,9 @@ display:
   name: "&dFarming Quest &8▪ &7Cookies"
   lore-normal:
     - "&8You need to bake a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dBake 200 cookies."
     - "&8■ &7Прогресс: &d{bake:progress}/200 cookies."
     - ""

@@ -9,7 +9,7 @@ display:
     - "&8You need to kill a certain"
     - "&8entity before receiving the reward."
     - ""
-    - "&aOptions:"
+    - "&aОпции:"
     - "&8■ &7Цель: &aKill 100 rabbit."
     - "&8■ &7Прогресс: &a{kill:progress}/100 rabbit."
     - ""

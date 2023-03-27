@@ -8,10 +8,10 @@ tasks:
 display:
   name: "&8Weaponsmith Quest &8▪ &7Golden Sword" 
   lore-normal:
-    - "&8You need to craft a certain amount"
-    - "&8of items before receiving the reward."
+    - "&8Необходимо изготовить определенное количество"
+    - "&8предметов перед получением награды."
     - ""
-    - "&8Options:"
+    - "&8Опции:"
     - "&8■ &7Цель: &8Forge 1 Golden Sword"
     - "&8■ &7Прогресс: &8{forge:progress}/1 golden sword"
     - ""

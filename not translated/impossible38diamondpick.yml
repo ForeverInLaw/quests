@@ -8,10 +8,10 @@ tasks:
 display:
   name: "&4Impossible Quest &8▪ &7Diamond Pickaxe"
   lore-normal:
-    - "&8You need to craft a certain amount"
-    - "&8of items before receiving the reward."
+    - "&8Необходимо изготовить определенное количество"
+    - "&8предметов перед получением награды."
     - ""
-    - "&4Options:"
+    - "&4Опции:"
     - "&8■ &7Цель: &4Forge 32 Diamond Pickaxe"
     - "&8■ &7Прогресс: &4{forge:progress}/32 diamond pickaxe"
     - ""

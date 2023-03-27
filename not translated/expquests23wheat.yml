@@ -7,9 +7,9 @@ display:
   name: "&aEXP Quest &8▪ &7Wheat"
   lore-normal:
     - "&8You need to harvest a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&aOptions:"
+    - "&aОпции:"
     - "&8■ &7Цель: &aHarvest 250 wheat."
     - "&8■ &7Прогресс: &a{harvest:progress}/250 wheat."
     - ""

@@ -8,7 +8,7 @@ display:
     - "&8You need to kill a certain"
     - "&8entity before receiving the reward."
     - ""
-    - "&cOptions:"
+    - "&cОпции:"
     - "&8■ &7Цель: &cDeal 100 hearts of damage."
     - "&8■ &7Прогресс: &c{damage:progress}/200 health points."
     - ""

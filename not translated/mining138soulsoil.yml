@@ -8,9 +8,9 @@ display:
   name: "&bMining Quest &8▪ &7Soul Soil #2" 
   lore-normal:
     - "&8You need to mine a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&bOptions:"
+    - "&bОпции:"
     - "&8■ &7Цель: &bMine 768 Soul Soil."
     - "&8■ &7Прогресс: &b{mine:progress}/768 soul soil."
     - ""

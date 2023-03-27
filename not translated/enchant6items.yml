@@ -6,9 +6,9 @@ display:
   name: "&5Enchanting Quest &8▪ &7Items #2" 
   lore-normal:
     - "&8You need to enchant a certain amount"
-    - "&8of items before receiving the reward."
+    - "&8предметов перед получением награды."
     - ""
-    - "&5Options:"
+    - "&5Опции:"
     - "&8■ &7Цель: &5Enchant 15 items."
     - "&8■ &7Прогресс: &5{enchant:progress}/15 items."
     - ""

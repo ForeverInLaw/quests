@@ -8,9 +8,9 @@ display:
   name: "&4Impossible Quest &8▪ &7Diamond ore"
   lore-normal:
     - "&8You need to mine a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&4Options:"
+    - "&4Опции:"
     - "&8■ &7Цель: &4Mine 1000 Diamond ore."
     - "&8■ &7Прогресс: &4{mine:progress}/1000 Diamond ore."
     - ""

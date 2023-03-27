@@ -9,9 +9,9 @@ display:
   name: "&dFarming Quest &8▪ &7White Wool #4"
   lore-normal:
     - "&8You need to obtain a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dObtain 200 White Wool."
     - "&8■ &7Прогресс: &d{obtain:progress}/200 White wool."
     - ""

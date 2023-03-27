@@ -11,7 +11,7 @@ display:
     - "&8You need to buy a certain item from"
     - "&8the shop before receiving the reward."
     - ""
-    - "&#34495eOptions:"
+    - "&#34495eОпции:"
     - "&8■ &7Цель:"
     - "&#34495eBuy 64 pieces of the first item in the Blocks category"
     - "&8■ &7Прогресс: &#34495e{shopguibuy:progress}/64 pieces"

@@ -9,7 +9,7 @@ display:
     - "&8You need to kill a certain"
     - "&8entity before receiving the reward."
     - ""
-    - "&aOptions:"
+    - "&aОпции:"
     - "&8■ &7Цель: &aKill 64 Magma Cubes."
     - "&8■ &7Прогресс: &a{kill:progress}/64 magma cubes."
     - ""

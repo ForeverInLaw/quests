@@ -7,9 +7,9 @@ display:
   name: "&dFarming Quest &8▪ &7Wheat #3"
   lore-normal:
     - "&8You need to harvest a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dHarvest 150 wheat."
     - "&8■ &7Прогресс: &d{harvest:progress}/150 wheat."
     - ""

@@ -9,7 +9,7 @@ display:
     - "&8You need to kill a certain"
     - "&8entity before receiving the reward."
     - ""
-    - "&cOptions:"
+    - "&cОпции:"
     - "&8■ &7Цель: &cKill 100 Phantoms."
     - "&8■ &7Прогресс: &c{kill:progress}/100 phantoms."
     - ""

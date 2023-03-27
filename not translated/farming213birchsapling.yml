@@ -8,9 +8,9 @@ display:
   name: "&dFarming Quest &8▪ &7Birch Sapling"
   lore-normal:
     - "&8You need to plant a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dPlant 32 Birch Saplings."
     - "&8■ &7Прогресс: &d{plant:progress}/32 Birch saplings."
     - ""

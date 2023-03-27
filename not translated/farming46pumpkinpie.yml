@@ -9,9 +9,9 @@ display:
   name: "&dFarming Quest &8▪ &7Pumpkin Pie #2"
   lore-normal:
     - "&8You need to bake a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dBake 15 Pumpkin Pies."
     - "&8■ &7Прогресс: &d{bake:progress}/15 Pumpkin Pies."
     - ""

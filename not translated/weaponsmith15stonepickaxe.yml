@@ -8,10 +8,10 @@ tasks:
 display:
   name: "&8Weaponsmith Quest &8▪ &7Stone Pickaxe" 
   lore-normal:
-    - "&8You need to craft a certain amount"
-    - "&8of items before receiving the reward."
+    - "&8Необходимо изготовить определенное количество"
+    - "&8предметов перед получением награды."
     - ""
-    - "&8Options:"
+    - "&8Опции:"
     - "&8■ &7Цель: &8Craft 1 Stone Pickaxe"
     - "&8■ &7Прогресс: &8{craft:progress}/1 stone pickaxe"
     - ""

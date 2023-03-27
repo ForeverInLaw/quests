@@ -8,9 +8,9 @@ display:
   name: "&aEXP Quest &8▪ &7Lapis Ore"
   lore-normal:
     - "&8You need to mine a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&aOptions:"
+    - "&aОпции:"
     - "&8■ &7Цель: &aMine 125 Lapis Ore."
     - "&8■ &7Прогресс: &a{mine:progress}/125 lapis ore."
     - ""

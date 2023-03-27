@@ -8,7 +8,7 @@ display:
     - "&8You need to break a certain amount"
     - "&8блоков до получения вознаграждения."
     - ""
-    - "&4Options:"
+    - "&4Опции:"
     - "&8■ &7Цель: &4Break 38400 blocks."
     - "&8■ &7Прогресс: &4{break:progress}/38400 blocks."
     - ""

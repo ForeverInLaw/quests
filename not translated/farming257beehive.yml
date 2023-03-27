@@ -10,7 +10,7 @@ display:
     - "&8You need to place a certain"
     - "&8block before receiving the reward."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dPlace 10 Bee Hives."
     - "&8■ &7Прогресс: &d{place:progress}/10 bee hives."
     - ""

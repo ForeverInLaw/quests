@@ -7,9 +7,9 @@ display:
   name: "&aEXP Quest &8▪ &7Carrots"
   lore-normal:
     - "&8You need to harvest a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&aOptions:"
+    - "&aОпции:"
     - "&8■ &7Цель: &aHarvest 200 carrot crops."
     - "&8■ &7Прогресс: &a{harvest:progress}/200 carrot crops."
     - ""

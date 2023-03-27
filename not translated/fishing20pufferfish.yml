@@ -9,7 +9,7 @@ display:
     - "&8You need to catch a certain amount"
     - "&8of fish before receiving the reward."
     - ""
-    - "&3Options:"
+    - "&3Опции:"
     - "&8■ &7Цель: &3Catch 20 Pufferfish."
     - "&8■ &7Прогресс: &3{pufferfish:progress}/20 pufferfish."
     - ""

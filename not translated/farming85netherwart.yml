@@ -7,9 +7,9 @@ display:
   name: "&dFarming Quest &8▪ &7Nether wart"
   lore-normal:
     - "&8You need to harvest a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dHarvest 50 Nether wart crops."
     - "&8■ &7Прогресс: &d{harvest:progress}/50 nether wart."
     - ""

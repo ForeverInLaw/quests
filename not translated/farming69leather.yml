@@ -8,10 +8,10 @@ tasks:
 display:
   name: "&dFarming Quest &8▪ &7Leather"
   lore-normal:
-    - "&8You need to collect a certain"
-    - "&8resource before receiving the reward."
+    - "&8Вам необходимо собрать определенные"
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dCollect 32 Leather."
     - "&8■ &7Прогресс: &d{collect:progress}/32 Leather."
     - ""

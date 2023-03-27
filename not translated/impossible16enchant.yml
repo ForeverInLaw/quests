@@ -6,9 +6,9 @@ display:
   name: "&4Impossible Quest &8▪ &7Enchant Items"
   lore-normal:
     - "&8You need to enchant a certain amount"
-    - "&8of items before receiving the reward."
+    - "&8предметов перед получением награды."
     - ""
-    - "&4Options:"
+    - "&4Опции:"
     - "&8■ &7Цель: &4Enchant 270 items."
     - "&8■ &7Прогресс: &4{enchant:progress}/270 items."
     - ""

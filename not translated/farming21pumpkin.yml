@@ -8,9 +8,9 @@ display:
   name: "&dFarming Quest &8▪ &7Pumpkin"
   lore-normal:
     - "&8You need to harvest a certain"
-    - "&8resource before receiving the reward."
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&dOptions:"
+    - "&dОпции:"
     - "&8■ &7Цель: &dHarvest 192 pumpkin."
     - "&8■ &7Прогресс: &d{harvest:progress}/192 pumpkin."
     - ""
