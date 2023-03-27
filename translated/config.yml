@@ -1,0 +1,413 @@
+# | =================================================== |
+# | Thank you for downloading and trying out my plugin: |
+# |                       Quests                        |
+# |      https://www.spigotmc.org/resources/23696/      |
+# |         https://github.com/LMBishop/Quests/         |
+# |                                                     |
+# |                         =x=                         |
+# |                                                     |
+# |              File comments should help              |
+# |               you with the new config               |
+# |              and guide you with making              |
+# |                        quests                       |
+#%%__USER__%%
+#%%__USERNAME__%%
+#%%__RESOURCE__%%
+#%%__VERSION__%%
+#%%__TIMESTAMP__%%
+# |                                                     |
+# |                         =x=                         |
+# |                                                     |
+# |              Have Discord & need help?              |
+# |           https://www.discord.gg/8amrJnX            |
+# | =================================================== |
+
+custom-elements:
+  categories: # применяться к меню категорий (по умолчанию главное меню)
+    0:   # <--- начать с слота 0
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+      repeat: 2 # повторяется еще для 8 слотов
+    4:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+      repeat: 5 # повторяется еще для 8 слотов
+    15:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+    17:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"        
+    18:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+    24:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+    25:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+    16:
+      display:
+        name: "&4&lОбщая информация"
+        lore:
+          - ""
+          - "&7Квест - это задание, которое игрок"
+          - '&может выполнить, чтобы получить вознаграждение.'
+          - "&7Вознаграждения могут включать предметы или внутриигровую валюту."
+          - ""
+          - "&7Квесты часто делятся на несколько типов"
+          - '&7такие как квесты на убийство, квесты на собирательство, квесты на разрушение/размещение...'
+          - ""
+          - "&cStats:"
+          - "&c&l* &7В настоящее время существует &4%quests_categories% &7категорий квестов"       
+          - "&c&l* &7В настоящее время существует &c%quests_all% &7квестов в сумме"
+        type: "BOOK"       
+    26:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"               
+    27:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"                                                    
+    33:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+    34:
+      display:
+        name: "&2&lПродвижение"
+        lore:
+          - "&7Здесь вы можете просмотреть свои"
+          - "&7продвижение и завершение"
+          - "&7всех доступных квестов."
+          - ""
+          - "&aСтатистика:"
+          - "&a&l* &7Вы имеете &a%quests_started% &7начатых квестов"       
+          - "&a&l* &7Вы завершили &2%quests_completed% &7квестов"
+        type: "COMPASS" 
+    35:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+    36:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+      repeat: 2   
+    40:
+      display:
+        name: ""
+        lore: []
+        type: "GRAY_STAINED_GLASS_PANE"
+      repeat: 4                                             
+
+# Предметы, перечисленные ниже, - это предметы-заполнители для квестов, которые игрок не может начать.
+# Вы должны изменить их для версии 1.8
+gui:
+  back-button:
+    name: "&c&lВозврат"
+    lore:
+    - "&7Нажмите здесь, чтобы вернуться"
+    - "&7в главное меню"
+    type: "BARRIER"
+  page-prev:
+    name: "&e&l<- Предыдущая страница"
+    lore:
+    - "&7Нажмите, чтобы перейти к" 
+    - "&7предыдущей странице &e{prevpage}."
+    type: "ARROW"
+  page-next:
+    name: "&e&lСледующая страница ->"
+    lore:
+    - "&7Нажмите, чтобы перейти к"
+    - "&7следующей странице &e{nextpage}."
+    type: "ARROW"
+  page-desc:
+    name: "&8(Страница: &7#{page}&8)"
+    lore:
+    - "&7Вы просматриваете страницу &7{page}."
+    type: "BOOK"
+  quest-locked-display:
+    name: "&c&lQuest Locked"
+    lore:
+    - "&7Вы не выполнили требования"
+    - "&7для этого квеста [&a{quest}&7]."
+    - "&r"
+    - "&cТребуется выполненные: &c&n{requirements}&c чтобы разблокировать."
+    type: "RED_TERRACOTTA"
+  quest-permission-display:
+    name: "&4&lНет доступа"
+    lore:
+    - "&7Вы не имеете доступа."
+    - "&r"
+    type: "RED_TERRACOTTA"
+  quest-cooldown-display:
+    name: "&e&lПерезарядка"
+    lore:
+    - "&7Вы недавно завершили этот квест"
+    - "&r"
+    - "&cДля повторной разблокировки необходимо подождать еще &c&n{time}&c"
+    type: "ORANGE_TERRACOTTA"
+  quest-completed-display:
+    name: "&a&lQuest Completed"
+    lore:
+    - "&7Вы выполнили этот квест."
+    - "&r"
+    - "&cЕго нельзя повторить."
+    type: "LIME_TERRACOTTA"
+  no-started-quests:
+    name: "&c&lНет начатых заданий"
+    lore:
+    - "&7Пойди, начни!"
+    type: "FEATHER"    
+  quest-cancel-yes:
+    name: "&a&lПодтверждение"
+    lore:
+    - "&7Подтвердите, что вы хотите отменить этот квест."
+    - "&cПредупреждение: Вы потеряете весь прогресс."
+    - "&r"
+    - "&cЩелкните левой кнопкой мыши для подтверждения."
+    type: "LIME_TERRACOTTA"
+  quest-cancel-no:
+    name: "&c&lОтмена"
+    lore:
+    - "&7Вернуться в меню."
+    - "&r"
+    - "&cЛевый клик для отмены."
+    type: "RED_TERRACOTTA"
+  quest-cancel-background:
+    type: "GRAY_STAINED_GLASS_PANE"
+
+# Здесь вы можете добавить пользовательские элементы в меню квестов.
+# Категории и квесты будут заполнять пустые слоты
+#custom-elements:
+#  "categories": # применяться к меню категорий (по умолчанию главное меню)
+#    0:   # <--- слот 1, обратите внимание, что слоты начинаются с 0! так что 0 = слот 1 в этом случае
+#      display:
+#        name: "&cПример пользовательского элемента (slot 1)"
+#        lore:
+#          - "&7Это пользовательский элемент, который может быть добавлен"
+#          - "&7в ваше меню. Это чисто косметический элемент."
+#        type: "DIAMOND_BLOCK"
+#    1:
+#      display:
+#        name: "&cПример пользовательского элемента (slots 2 - 5)"
+#        lore:
+#          - "&7This is a custom item which can be added"
+#          - "&7to your menus, but in slot 2 and repeated"
+#          - "&73 times."
+#          - "&7This is purely cosmetic."
+#        type: "NETHERRACK"
+#      repeat: 3 # repeats for 3 more slots
+#  "c:examples": # apply to the category "examples"
+#    0:
+#      display:
+#        name: "&cПример пользовательского элемента (slot 1)"
+#        lore:
+#          - "&7This is a custom item which can be added"
+#          - "&7to your menus. This is purely cosmetic."
+#        type: "EMERALD_BLOCK"
+
+options:
+  # Если категории отключены, квесты будут помещены в один большой gui.
+  categories-enabled: true
+  storage:
+    provider: "yaml"
+# Необязательно. Должен ли квест автоматически запускаться. Это аналогично включению автозапуска квеста для всего плагина, 
+# но только для этого квеста, т.е. он не может быть отменен и засчитывается в лимит начатых игроком квестов.
+  autostart: false  
+  # Если true, размер gui будет автоматически изменяться в зависимости от количества квестов в нем.
+  trim-gui-size: true
+  # Включение/выключение заголовков
+  titles-enabled: true
+  # Разрешить игрокам иметь несколько активных квестов.
+  # Вы можете установить количество квестов по умолчанию, используя ранг 'default' ниже.
+  # Чтобы предоставить разные ограничения на выполнение квестов разным людям, вы можете определить'
+  # Создайте  'quest-rank' ниже и дайте соответствующее разрешение: quests.limit.<quest-rank>
+  quest-limit:
+    default: 4
+    #vip: 5
+    #staff: 10
+  # Скрывать заблокированные квесты, квесты, находящиеся в режиме ожидания, и завершенные (но не повторяемые) квесты
+  gui-hide-locked: false
+  # Разрешить игрокам отменять квест
+  allow-quest-cancel: true
+  # Позволить игрокам отслеживать квест (возможно, вы захотите убрать инструкции по отслеживанию в глобальном описании предмета)
+  allow-quest-track: true  
+  # Названия для графических интерфейсов
+  guinames:
+    quests-category: "&8Категории квестов"
+    quests-menu: "&8Квесты (Выберите квест)"
+    quests-started-menu: "&8Запущенные квесты"    
+    daily-quests: "&8Ежедневные квесты"
+    quest-cancel: "&8Отмена"
+  # See https://github.com/LMBishop/Quests/wiki/Basic-Options#sounds - VERSION 3.2 UPDATE
+  sounds:
+    quest-start: "ENTITY_PLAYER_LEVELUP:2:3"
+    quest-cancel: "UI_TOAST_OUT:2:3"
+    quest-complete: "UI_TOAST_CHALLENGE_COMPLETE:1.25:3"
+    gui:
+      open: "ITEM_BOOK_PAGE_TURN:1:3"
+      interact: "ITEM_BOOK_PAGE_TURN1:3"
+  # Подтверждение отмены квеста с помощью отдельного меню
+  gui-confirm-cancel: true
+  # Сокращение требований к квесту при наличии нескольких требований для предотвращения появления огромных элементов на экране
+  gui-truncate-requirements: true 
+  # Скрыть квесты, которые игрок не может начать из-за разрешений.
+  gui-hide-quests-nopermission: false
+  # Скрыть категории, которые игрок не может открыть из-за прав доступа.
+  gui-hide-categories-nopermission: false
+  # Замена заполнителей из PlaceholderAPI в элементах GUI квестов
+  gui-use-placeholderapi: true 
+  # Сделать так, чтобы игрокам не приходилось начинать квест самостоятельно
+  quest-autostart: false
+  # Сколько квестов должно записываться в журнал, 0 = только ошибки, 1 = предупреждения, 2 = информация, 3 = отладка
+  verbose-logging-level: 2
+  performance-tweaking: # Следующие параметры измеряются в серверных тиках, умножьте SECONDS на 20, чтобы получить количество тиков.
+    quest-queue-executor-interval: 1      # как часто квесты должны выполнять следующую проверку в очереди завершения (def=1 - 0.05s) - увеличьте это значение, если у вас проблемы с производительностью
+    quest-autosave-interval: 12000        # как часто данные онлайн-игроков будут автосохраняться (def=12000 - 10 минут)
+    quests-autosave-async: false          # экспериментальный - асинхронное сохранение при автосохранении
+    quests-join-async: false              # экспериментальный - асинхронная загрузка при присоединении
+    quests-leave-async: false             # экспериментальный - сохранять асинхронно при выходе
+  tab-completion:
+    enabled: true
+  error-checking:
+    # Разрешить загрузку квестов, если они содержат ошибки
+    # Это может привести к появлению ошибок в консоли!
+    override-errors: false
+  # Сколько времени (в секундах) плагин будет кэшировать местозаполнители
+  placeholder-cache-time: 10
+  # Будет ли глобальная конфигурация задач иметь приоритет над настройками конфигурации каждой задачи.
+  global-task-configuration-override: false
+  # Будет ли глобальная конфигурация отображения иметь приоритет над настройками отображения в каждом запросе.
+  global-quest-display-configuration-override: false    
+
+# Это меняет всю систему квестов.
+# При включении ежедневных квестов игроки больше не будут получать стандартный графический интерфейс квестов.
+# Вместо этого им будут представлены 5 случайных квестов.
+# Раздел "requirements" в каждом квесте здесь не применяется.
+# Раздел "cooldown" в каждом квесте здесь не применяется - если он выполнен, то он выполнен (и будет повторен в следующий раз, когда они получат квест).
+# Раздел "repeatable" в каждом квесте здесь не применяется. Он не будет повторяться до следующего дня.
+# Включение этой функции МОЖЕТ привести к тому, что предыдущий прогресс квеста будет изменен, стерт или изменен необратимо! Если вы тестируете это на живом сервере, разумно сделать резервную копию
+# папку Quests/playerdata/! Вы были предупреждены!
+#
+# Квесты BETA: эта функция находится в стадии разработки, она еще не работает!
+daily-quests:
+  enabled: false # <----- ЕЩЕ НЕ РЕАЛИЗОВАН (ЭТО НИЧЕГО НЕ ДАСТ)
+
+# Глобальная конфигурация задания будет применяться к конфигурации каждого задания указанного типа в каждом квесте.
+# В приведенном ниже примере для каждого задания с типом "инвентарь" параметр конфигурации "update-progress"
+# установлен в true. Это полезно, если вы не хотите проходить каждый квест, чтобы обновить конфигурацию.
+# для каждого задания определенного типа.
+#
+# Чтобы пример имел эффект, необходимо откомментировать все приведенные ниже строки
+# vvvvvvvvvvvvvvvvvvvvvvvvv
+#global-task-configuration:
+#  types:
+#    inventory:
+#      update-progress: true
+
+global-quest-display:
+  lore:
+#    append-normal:
+#      - "..."
+    append-not-started:
+      - ""
+      - "&eЩелкните левой кнопкой мыши &7чтобы начать этот квест.."
+    append-started:
+      - ""
+      - "&aВы начали это задание."
+      - "&eНажмите среднюю кнопку мыши &7для отслеживания этого квеста."
+      - "&eНажмите правую кнопку мыши &7чтобы отменить это задание."
+    append-tracked:
+      - ""
+      - "&aВы &eотслеживаете &aэтот поиск.."
+      - "&eНажмите среднюю кнопку мыши &7чтобы прекратить отслеживание этого квеста."
+      - "&eЩелкните правой кнопкой мыши &7чтобы отменить этот квест."
+
+
+# Настройка названий
+titles:
+  quest-start:
+    title: "&a&lКвест начат"
+    subtitle: "&a❖ &f{quest} &a❖"
+  quest-complete:
+    title: "&2&lКвест завершен"
+    subtitle: "&2❖ &f{quest} &2❖"
+
+# Configure messages
+messages:
+  time-format: "{hours}ч {minutes}м"
+  quest-start: "&aКвесты&8 ➡&7 Квест &a({quest}) &7был начат."
+  quest-complete: "&aКвесты&8 ➡&7 Вы выполнили задание: &a({quest})&7."
+  quest-cancel: "&cКвесты&8 ➡&7 Вы отменили квест: &c({quest})&7."
+  quest-track: "&eКвесты&8 ➡&7 Отслеживание квеста &a({quest})&7."
+  quest-track-stop: "&cКвесты&8 ➡&7 Вы больше не отслеживаете квест &c({quest})&7."
+  quest-random-none: "&aКвесты&8 ➡&c У вас нет квестов, которые вы можете начать."  
+  quest-start-limit: "&cКвесты&8 ➡&7 Вы ограничены &e({limit}) &начатых квестов в одно время."
+  quest-start-disabled: "&cКвесты&8 ➡&7 Вы не можете повторить этот квест."
+  quest-start-locked: "&cКвесты&8 ➡&7 Вы еще не разблокировали этот квест."
+  quest-start-cooldown: "&cКвесты&8 ➡&7 Вы недавно завершили этот квест. Вам нужно подождать &e({time}) &7пока вы сможете начать его выполнение."
+  quest-start-started: "&eКвесты&8 ➡&7 Вы уже начали это задание."
+  quest-start-permission: "&cКвесты&8 ➡&7 У вас нет разрешения начать этот квест."
+  quest-category-permission: "&cКвесты&8 ➡&7 У вас нет разрешения на просмотр этой категории."
+  quest-category-quest-permission: "&cКвесты&8 ➡&7 У вас нет разрешения начать этот квест поскольку он находится в категории, для просмотра которой у вас нет разрешения."
+  quest-cancel-notstarted: "&cКвесты&8 ➡&7 Вы не начали этот квест."
+  quest-updater: "&eКвесты&8 ➡&7 Новая версия &e({newver}) &7была найдена на Spigot. Обновите плагин здесь: &e{link}"
+  command-sub-doesntexist: "&cКвесты&8 ➡ &7Указанная подкоманда &c({sub}) &7не существует."
+  command-quest-start-doesntexist: "&cКвесты&8 ➡&7 Квест &c({quest})&7 не существует."
+  command-category-open-disabled: "&cКвесты&8 ➡&7 Категории в настоящее время отключены."
+  command-category-open-doesntexist: "&cКвесты&8 ➡&7 Указанная категория: &c({category})&7, не существует."
+  command-quest-admin-playernotfound: "&cКвесты&8 ➡&7 &c({player})&7 не может быть найден."
+  command-quest-openquests-admin-success: "&eКвесты&8 ➡&7 Инвентарь квеста был открыт для &e({player})&7."
+  command-quest-opencategory-admin-success: "&eКвесты&8 ➡&7 Категория &a({category}) &7была открыта для &e({player})&7."
+  command-taskview-admin-fail: "&cКвесты&8 ➡&7 Тип задания &c({task})&7 не существует."
+  beta-reminder: "&eКвесты&8 ➡&7 Вы используете бета-версию плагина для квестов. Пожалуйста, сообщайте о любых найденных ошибках."
+  command-quest-admin-loaddata: "&eКвесты&8 ➡&7 Загружаются данные квеста для игрока &e({player})&7."
+  command-quest-admin-nodata: "&cКвесты&8 ➡&7 Не удалось найти данных для &c({player})&7."
+  command-quest-admin-fullreset: "&aКвесты&8 ➡&7 Данные для &a({player})&7 были сброшены."
+  command-quest-admin-start-faillocked: "&cКвесты&8 ➡&7 Квест &c({quest})&7 не может быть запущен для &c({player})&7. Они еще не разблокировали его."
+  command-quest-admin-start-failcooldown: "&cКвесты&8 ➡&7 Квест &c({quest})&7 не может быть запущен для &c({player})&7. Он все еще находится на кулдауне для них."
+  command-quest-admin-start-failcomplete: "&cКвесты&8 ➡&7 Квест &c({quest})&7 не может быть запущен для &c({player})&7. Они уже завершили его."
+  command-quest-admin-start-faillimit: "&cКвесты&8 ➡&7 Квест &c({quest})&7 не может быть запущен для &c({player})&7. Они достигли лимита начала квеста."
+  command-quest-admin-start-failstarted: "&cКвесты&8 ➡&7 Квест &c({quest})&7 не может быть запущен для &c({player})&7. Уже начато."
+  command-quest-admin-start-failpermission: "&cКвесты&8 ➡&7 Квест &c({quest})&7 не может быть запущен для &c({player})&7. У них нет разрешения."
+  command-quest-admin-start-failcategorypermission: "&cКвесты&8 ➡&7 Quest &c({quest})&7 не может быть запущен для &c({player})&7. У них нет разрешения для категории, в которой находится квест."
+  command-quest-admin-start-failother: "&cКвесты&8 ➡&7 Квест &c({quest})&7 не может быть запущен для &c({player})&7."
+  command-quest-admin-start-success: "&aКвесты&8 ➡&7 Квест &a({quest}) &7был запущен для &a({player})&7."
+  command-quest-admin-category-permission: "&cКвесты&8 ➡&7 Category &c({category}) &7не может быть открыт для &c({player})&7. У них нет разрешения на просмотр."
+  command-quest-admin-complete-success: "&aКвесты&8 ➡&7 Квест &2({quest}) &fзавершён для &a({player})&7."
+  command-quest-admin-reset-success: "&aКвесты&8 ➡&7 Успешный сброс квеста &a({quest})&7 для &a({player})&7."
+  command-quest-admin-random-none: "&aМиссии&8 ➡ &7У игрока &c{player}&7 нет миссий, которые можно начать."
+  command-quest-admin-random-success: "&aМиссии&8 ➡ &7Случайная миссия успешно начата '&c{quest}&7' для игрока &c{player}&7."
+  command-quest-admin-random-category-none: "&aМиссии&8 ➡ &7Игрок &c{player}&7 не имеет миссий в категории '&c{category}&7' которые можно начать."
+  command-quest-admin-random-category-success: "&aМиссии&8 ➡ &7Случайная миссия успешно начата '&c{quest}&7' категории '&c{category}&7' для игрока &c{player}&7."
+  ui-placeholder-completed-true: "true"
+  ui-placeholder-completed-false: "false"
+  ui-placeholder-truncated: " +{amount} more"
+  placeholderapi-true: "true"
+  placeholderapi-false: "false"
+  placeholderapi-no-tracked-quest: "Нет отслеживаемого квеста"
+  placeholderapi-data-not-loaded: "Данные не загружены"
+
