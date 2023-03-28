@@ -1,0 +1,48 @@
+tasks:
+  collect:
+    type: "inventory"
+    item: HONEYCOMB
+    amount: 256
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&dФермерский квест &8▪ &7Пчелиные соты #4"
+  lore-normal:
+    - "&8Вам необходимо собрать определенные"
+    - "&8ресурсы перед получением вознаграждения."
+    - ""
+    - "&dОпции:"
+    - "&8■ &7Цель: &dСобери 256 Пчелиные соты."
+    - "&8■ &7Прогресс: &d{collect:progress}/256 Пчелиные соты."
+    - ""
+    - "&dНаграды:"
+    - "&8■ &7Вы получите &a&l$&a600&7."
+    - ""
+  lore-started:
+    - "&e▲ Квест был начат."
+  type: "HONEYCOMB"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7По завершении этого задания вы будете вознаграждены"
+  - " &8■ &a&l$&a600"
+rewards:
+  - "cmi money give {player} 600"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a600 &7было добавлено к вашему игровому балансу."
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+#### TOOSIE NOTE: I removed this section to get rid of all errors when doing /quests a reload.
+ #### I will add it only to people who need it, so contact me on discord if you do.
+
+options:
+  category: "farming"
+  requires:
+    - "farming255honeycombs"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 256

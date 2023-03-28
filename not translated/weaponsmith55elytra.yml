@@ -8,11 +8,11 @@ tasks:
 display:
   name: "&8Weaponsmith Quest &8▪ &7Elytra" 
   lore-normal:
-    - "&8You need to obtain a certain amount"
+    - "&8Вам необходимо получить определенные amount"
     - "&8предметов перед получением награды."
     - ""
     - "&8Опции:"
-    - "&8■ &7Цель: &8Obtain 1 Elytra"
+    - "&8■ &7Цель: &8Получите 1 Elytra"
     - "&8■ &7Прогресс: &8{obtain:progress}/1 elytra"
     - ""
     - "&8Награды:"

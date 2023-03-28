@@ -8,11 +8,11 @@ tasks:
 display:
   name: "&8Weaponsmith Quest &8▪ &7Trident" 
   lore-normal:
-    - "&8You need to obtain a certain amount"
+    - "&8Вам необходимо получить определенные amount"
     - "&8предметов перед получением награды."
     - ""
     - "&8Опции:"
-    - "&8■ &7Цель: &8Obtain 1 Trident"
+    - "&8■ &7Цель: &8Получите 1 Trident"
     - "&8■ &7Прогресс: &8{obtain:progress}/1 trident"
     - ""
     - "&8Награды:"

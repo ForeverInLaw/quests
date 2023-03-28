@@ -6,14 +6,14 @@ tasks:
     remove-items-when-complete: true
     update-progress: true
 display:
-  name: "&8Weaponsmith Quest &8▪ &7Leather Helmet" 
+  name: "&8Weaponsmith Quest &8▪ &7Кожа Helmet" 
   lore-normal:
     - "&8Необходимо изготовить определенное количество"
     - "&8предметов перед получением награды."
     - ""
     - "&8Опции:"
-    - "&8■ &7Цель: &8Craft 1 Leather Helmet."
-    - "&8■ &7Прогресс: &8{craft:progress}/1 leather helmet"
+    - "&8■ &7Цель: &8Craft 1 Кожа Helmet."
+    - "&8■ &7Прогресс: &8{craft:progress}/1 Кожа helmet"
     - ""
     - "&8Награды:"
     - "&8■ &7Вы получите &a&l$&a50&7."
