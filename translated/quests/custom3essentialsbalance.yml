@@ -3,7 +3,7 @@ tasks:
     type: "essentials_balance"
     amount: 10000
 display:
-  name: "&#34495eПользовательские квесты &8▪ &7Reach Balance" 
+  name: "&#34495eПользовательские квесты &8▪ &7Достичь баланса" 
   lore-normal:
     - "&cТребование: EssentialsX Plugin"
     - "&8Вам необходимо достичь определенного денежного баланса"

@@ -6,7 +6,7 @@ tasks:
     remove-items-when-complete: true
     update-progress: true
 display:
-  name: "&aКоллекционный квест &8▪  	&7Нить" 
+  name: "&aКоллекционный квест &8▪ &7Нить" 
   lore-normal:
     - "&8Вам необходимо собрать определенные"
     - "&8ресурсы перед получением вознаграждения."
