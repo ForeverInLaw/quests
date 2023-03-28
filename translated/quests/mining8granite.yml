@@ -1,0 +1,47 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 1536
+    block: GRANITE
+    reverse-if-placed: true    
+display:
+  name: "&bШахтерский квест &8▪ &7Гранит #4" 
+  lore-normal:
+    - "&8Вы должны намайнить определенные"
+    - "&8ресурсы перед получением вознаграждения."
+    - ""
+    - "&bОпции:"
+    - "&8■ &7Цель: &bДобудьте 1536 Гранит."
+    - "&8■ &7Прогресс: &b{mine:progress}/1536 Гранит."
+    - ""
+    - "&bНаграды:"
+    - "&8■ &7Вы получите &a&l$&a2000&7."
+    - ""
+  lore-started:
+    - "&e▲ Квест был начат."
+  type: "GRANITE"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7По завершении этого задания вы будете вознаграждены"
+  - " &8■ &a&l$&a2000"
+rewards:
+  - "cmi money give {player} 2000"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &a&l$&a2000 &7было добавлено к вашему игровому балансу."
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+#### TOOSIE NOTE: I removed this section to get rid of all errors when doing /quests a reload.
+ #### I will add it only to people who need it, so contact me on discord if you do.
+
+options:
+  category: "mining"
+  requires: 
+    - "mining7granite"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 8
