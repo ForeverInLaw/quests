@@ -6,11 +6,11 @@ tasks:
 display:
   name: "&dFarming Quest &8▪ &7Nether wart #3"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&dОпции:"
-    - "&8■ &7Цель: &dHarvest 150 Nether wart crops."
+    - "&8■ &7Цель: &dСоберите 150 Nether wart crops."
     - "&8■ &7Прогресс: &d{harvest:progress}/150 nether wart."
     - ""
     - "&dНаграды:"

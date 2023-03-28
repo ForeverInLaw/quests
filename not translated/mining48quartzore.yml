@@ -5,14 +5,14 @@ tasks:
     block: NETHER_QUARTZ_ORE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Quartz Ore #4" 
+  name: "&bMining Quest &8▪ &7Незер-кварцевая руда #4" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 200 Quartz Ore."
-    - "&8■ &7Прогресс: &b{mine:progress}/200 Quartz ore."
+    - "&8■ &7Цель: &bДобудьте ьте 200 Незер-кварцевая руда."
+    - "&8■ &7Прогресс: &b{mine:progress}/200 Незер-кварцевая руда."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."

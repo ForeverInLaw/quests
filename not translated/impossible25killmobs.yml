@@ -3,13 +3,13 @@ tasks:
     type: "mobkilling"
     amount: 6000
 display:
-  name: "&4Impossible Quest &8▪ &7Kill Mobs"
+  name: "&4Impossible Quest &8▪ &7Убейте Mobs"
   lore-normal:
-    - "&8You need to kill a certain amount"
+    - "&8Вам нужно убить определенное amount"
     - "&8of mobs before receiving the reward."
     - ""
     - "&4Опции:"
-    - "&8■ &7Цель: &4Kill 6000 Mobs."
+    - "&8■ &7Цель: &4Убейте 6000 Mobs."
     - "&8■ &7Прогресс: &4{kill:progress}/6000 mobs."
     - ""
     - "&4Награды:"

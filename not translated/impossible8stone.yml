@@ -5,14 +5,14 @@ tasks:
     block: STONE
     reverse-if-placed: true    
 display:
-  name: "&4Impossible Quest &8▪ &7Stone"
+  name: "&4Impossible Quest &8▪ &7Камень"
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&4Опции:"
-    - "&8■ &7Цель: &4Mine 19200 Stone."
-    - "&8■ &7Прогресс: &4{mine:progress}/19200 stone."
+    - "&8■ &7Цель: &4Добудьте 19200 Камень."
+    - "&8■ &7Прогресс: &4{mine:progress}/19200 Камень."
     - ""
     - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a15000&7."

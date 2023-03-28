@@ -5,14 +5,14 @@ tasks:
     block: IRON_ORE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Iron ore" 
+  name: "&bMining Quest &8▪ &7Железная руда" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 50 Iron Ore."
-    - "&8■ &7Прогресс: &b{mine:progress}/50 Iron ore."
+    - "&8■ &7Цель: &bДобудьте 50 Железная руда."
+    - "&8■ &7Прогресс: &b{mine:progress}/50 Железная руда."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a250&7."

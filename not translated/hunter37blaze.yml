@@ -4,14 +4,14 @@ tasks:
     amount: 50
     mob: BLAZE
 display:
-  name: "&cHunter Quest &8▪ &7Blaze"  
+  name: "&cHunter Quest &8▪ &7Всполох"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 50 Blaze."
-    - "&8■ &7Прогресс: &c{kill:progress}/50 blaze."
+    - "&8■ &7Цель: &cУбейте 50 Всполохов"
+    - "&8■ &7Прогресс: &c{kill:progress}/50 Всполохов"
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."

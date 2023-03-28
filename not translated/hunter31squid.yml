@@ -4,14 +4,14 @@ tasks:
     amount: 150
     mob: SQUID
 display:
-  name: "&cHunter Quest &8▪ &7Squid #3"  
+  name: "&cHunter Quest &8▪ &7Спрут #3"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 150 Squids."
-    - "&8■ &7Прогресс: &c{kill:progress}/150 squids."
+    - "&8■ &7Цель: &cУбейте 150 Спрутов."
+    - "&8■ &7Прогресс: &c{kill:progress}/150 Спрутов."
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."

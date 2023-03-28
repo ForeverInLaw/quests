@@ -5,14 +5,14 @@ tasks:
     block: "BAMBOO"
     reverse-if-placed: true    
 display:
-  name: "&dFarming Quest &8▪ &7Bamboo"
+  name: "&dFarming Quest &8▪ &7Бамбук"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&dОпции:"
-    - "&8■ &7Цель: &dHarvest 192 bamboo."
-    - "&8■ &7Прогресс: &d{harvest:progress}/192 bamboo."
+    - "&8■ &7Цель: &dСоберите 192 Бамбук."
+    - "&8■ &7Прогресс: &d{harvest:progress}/192 Бамбук."
     - ""
     - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a250&7."

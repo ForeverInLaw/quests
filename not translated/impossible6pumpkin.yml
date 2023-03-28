@@ -7,11 +7,11 @@ tasks:
 display:
   name: "&4Impossible Quest &8▪ &7Pumpkins"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&4Опции:"
-    - "&8■ &7Цель: &4Harvest 1152 pumpkins."
+    - "&8■ &7Цель: &4Соберите 1152 pumpkins."
     - "&8■ &7Прогресс: &4{harvest:progress}/1152 pumpkins."
     - ""
     - "&4Награды:"

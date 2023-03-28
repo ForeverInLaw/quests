@@ -5,14 +5,14 @@ tasks:
     block: COAL_ORE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Coal Ore" 
+  name: "&bMining Quest &8▪ &7Угольная руда" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 50 Coal Ore."
-    - "&8■ &7Прогресс: &b{mine:progress}/50 Coal ore."
+    - "&8■ &7Цель: &bДобудьте 50 Угольная руда."
+    - "&8■ &7Прогресс: &b{mine:progress}/50 Угольная руда."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a250&7."

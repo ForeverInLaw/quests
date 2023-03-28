@@ -5,14 +5,14 @@ tasks:
     block: PACKED_ICE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Packed Ice" 
+  name: "&bMining Quest &8▪ &7Плотный лёд" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 50 Packed Ice."
-    - "&8■ &7Прогресс: &b{mine:progress}/50 Packed ice."
+    - "&8■ &7Цель: &bДобудьте 50 Плотный лёд."
+    - "&8■ &7Прогресс: &b{mine:progress}/50 Плотный лёд."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a250&7."

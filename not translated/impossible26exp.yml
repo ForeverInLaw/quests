@@ -3,14 +3,14 @@ tasks:
     type: "expearn"
     amount: 47520
 display:
-  name: "&4Impossible Quest &8▪ &7Exp Earn"
+  name: "&4Impossible Quest &8▪ &7Получение опыта"
   lore-normal:
-    - "&8You need to earn a certain amount"
-    - "&8of exp before receiving the reward."
+    - "&8Вам необходимо заработать определенную сумму"
+    - "&8опыта для получения вознаграждения."
     - ""
     - "&4Опции:"
-    - "&8■ &7Цель: &4Earn 120 experience levels."
-    - "&8■ &7Прогресс: &4{exp:progress}/47520 experience."
+    - "&8■ &7Цель: &4Получите 120 уровней опыта."
+    - "&8■ &7Прогресс: &4{exp:progress}/47520 опыта."
     - ""
     - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a7500&7."

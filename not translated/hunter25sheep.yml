@@ -4,13 +4,13 @@ tasks:
     amount: 50
     mob: SHEEP
 display:
-  name: "&cHunter Quest &8▪ &7Sheep"  
+  name: "&cHunter Quest &8▪ &7Овца"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 50 овец."
+    - "&8■ &7Цель: &cУбейте 50 овец."
     - "&8■ &7Прогресс: &c{kill:progress}/50 овец."
     - ""
     - "&cНаграды:"

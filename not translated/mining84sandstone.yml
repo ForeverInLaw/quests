@@ -5,14 +5,14 @@ tasks:
     block: SANDSTONE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Sandstone #4" 
+  name: "&bMining Quest &8▪ &7Песчаник #4" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 200 Sandstone."
-    - "&8■ &7Прогресс: &b{mine:progress}/200 Sandstone."
+    - "&8■ &7Цель: &bДобудьте 200 Песчаник."
+    - "&8■ &7Прогресс: &b{mine:progress}/200 Песчаник."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."

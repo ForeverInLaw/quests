@@ -4,14 +4,14 @@ tasks:
     amount: 200
     mob: SPIDER
 display:
-  name: "&cHunter Quest &8▪ &7Spider #4"  
+  name: "&cHunter Quest &8▪ &7Паук #4"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 200 Spiders."
-    - "&8■ &7Прогресс: &c{kill:progress}/200 spiders."
+    - "&8■ &7Цель: &cУбейте 200 Пауков."
+    - "&8■ &7Прогресс: &c{kill:progress}/200 Пауков."
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1500&7."

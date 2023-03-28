@@ -5,14 +5,14 @@ tasks:
     block: ICE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Ice #2" 
+  name: "&bMining Quest &8▪ &7Лёд #2" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 100 Ice."
-    - "&8■ &7Прогресс: &b{mine:progress}/100 Ice."
+    - "&8■ &7Цель: &bДобудьте 100 Лёд."
+    - "&8■ &7Прогресс: &b{mine:progress}/100 Лёд."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."

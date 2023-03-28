@@ -4,14 +4,14 @@ tasks:
     amount: 50
     mob: CAVE_SPIDER
 display:
-  name: "&cHunter Quest &8▪ &7Cave Spider"  
+  name: "&cHunter Quest &8▪ &7Пещерный паук"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 50 Cave Spiders."
-    - "&8■ &7Прогресс: &c{kill:progress}/50 cave spiders."
+    - "&8■ &7Цель: &cУбейте 50 Пещерных пауков."
+    - "&8■ &7Прогресс: &c{kill:progress}/50 Пещерных пауков."
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."

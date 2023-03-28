@@ -4,14 +4,14 @@ tasks:
     amount: 200
     block: "BEETROOTS"
 display:
-  name: "&dFarming Quest &8▪ &7Beetroots #4"
+  name: "&dFarming Quest &8▪ &7Свёкла #4"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&dОпции:"
-    - "&8■ &7Цель: &dHarvest 200 beetroot crops."
-    - "&8■ &7Прогресс: &d{harvest:progress}/200 beetroot crops."
+    - "&8■ &7Цель: &dСоберите 200 Свёкла."
+    - "&8■ &7Прогресс: &d{harvest:progress}/200 Свёкла."
     - ""
     - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."

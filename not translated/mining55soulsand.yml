@@ -5,14 +5,14 @@ tasks:
     block: SOUL_SAND
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Soul Sand #3" 
+  name: "&bMining Quest &8▪ &7Песок душ #3" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 1152 Soul Sand."
-    - "&8■ &7Прогресс: &b{mine:progress}/1152 Soul sand."
+    - "&8■ &7Цель: &bДобудьте 1152 Песок душ."
+    - "&8■ &7Прогресс: &b{mine:progress}/1152 Песок душ."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."

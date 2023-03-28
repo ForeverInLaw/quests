@@ -4,14 +4,14 @@ tasks:
     amount: 100
     mob: SKELETON
 display:
-  name: "&cHunter Quest &8▪ &7Skeleton #2"  
+  name: "&cHunter Quest &8▪ &7Скелет #2"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 100 Skeletons."
-    - "&8■ &7Прогресс: &c{kill:progress}/100 skeletons."
+    - "&8■ &7Цель: &cУбейте 100 Скелетов."
+    - "&8■ &7Прогресс: &c{kill:progress}/100 Скелетов."
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."

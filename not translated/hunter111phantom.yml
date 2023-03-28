@@ -6,11 +6,11 @@ tasks:
 display:
   name: "&cHunter Quest &8▪ &7Phantom #3"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 150 Phantoms."
+    - "&8■ &7Цель: &cУбейте 150 Phantoms."
     - "&8■ &7Прогресс: &c{kill:progress}/150 phantoms."
     - ""
     - "&cНаграды:"

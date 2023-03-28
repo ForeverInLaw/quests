@@ -7,7 +7,7 @@ tasks:
 display:
   name: "&4Impossible Quest &8▪ &7Dirt"
   lore-normal:
-    - "&8You need to dig a certain amount"
+    - "&8Вам нужно выкопать определенное количество"
     - "&8blocks before receiving the reward."
     - ""
     - "&4Опции:"

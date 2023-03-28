@@ -7,11 +7,11 @@ tasks:
 display:
   name: "&bMining Quest &8▪ &7Ancient Debris" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 16 Ancient Debris."
+    - "&8■ &7Цель: &bДобудьте 16 Ancient Debris."
     - "&8■ &7Прогресс: &b{mine:progress}/16 ancient debris."
     - ""
     - "&bНаграды:"

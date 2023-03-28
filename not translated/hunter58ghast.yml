@@ -4,14 +4,14 @@ tasks:
     amount: 15
     mob: GHAST
 display:
-  name: "&cHunter Quest &8▪ &7Ghast #2"  
+  name: "&cHunter Quest &8▪ &7Гаст #2"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 15 Ghast."
-    - "&8■ &7Прогресс: &c{kill:progress}/15 ghast."
+    - "&8■ &7Цель: &cУбейте 15 Гастов"
+    - "&8■ &7Прогресс: &c{kill:progress}/15 Гастов"
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."

@@ -5,14 +5,14 @@ tasks:
     block: NETHERRACK
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Netherrack #4" 
+  name: "&bMining Quest &8▪ &7Незерак #4" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 9600 Netherrack."
-    - "&8■ &7Прогресс: &b{mine:progress}/9600 Netherrack."
+    - "&8■ &7Цель: &bДобудьте 9600 Незерак."
+    - "&8■ &7Прогресс: &b{mine:progress}/9600 Незерак."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a2500&7."

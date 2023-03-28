@@ -4,14 +4,14 @@ tasks:
     amount: 100
     block: "WHEAT"
 display:
-  name: "&dFarming Quest &8▪ &7Wheat #2"
+  name: "&dFarming Quest &8▪ &7Пшеница #2"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&dОпции:"
-    - "&8■ &7Цель: &dHarvest 100 wheat."
-    - "&8■ &7Прогресс: &d{harvest:progress}/100 wheat."
+    - "&8■ &7Цель: &dСоберите 100 Пшеница."
+    - "&8■ &7Прогресс: &d{harvest:progress}/100 Пшеница."
     - ""
     - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a250&7."

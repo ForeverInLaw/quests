@@ -7,11 +7,11 @@ tasks:
 display:
   name: "&dFarming Quest &8▪ &7Kelp Plant #4"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&dОпции:"
-    - "&8■ &7Цель: &dHarvest 768 Kelp plants."
+    - "&8■ &7Цель: &dСоберите 768 Kelp plants."
     - "&8■ &7Прогресс: &d{harvest:progress}/768 Kelp plants."
     - ""
     - "&dНаграды:"

@@ -5,14 +5,14 @@ tasks:
     block: EMERALD_ORE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Emerald Ore #3" 
+  name: "&bMining Quest &8▪ &7Изумрудная руда #3" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 48 Emerald Ore."
-    - "&8■ &7Прогресс: &b{mine:progress}/48 Emerald ore."
+    - "&8■ &7Цель: &bДобудьте 48 Изумрудная руда."
+    - "&8■ &7Прогресс: &b{mine:progress}/48 Изумрудная руда."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."

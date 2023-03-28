@@ -5,14 +5,14 @@ tasks:
     block: NETHER_BRICKS
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Nether Bricks #3" 
+  name: "&bMining Quest &8▪ &7Незерские кирпичи #3" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 150 Nether Bricks."
-    - "&8■ &7Прогресс: &b{mine:progress}/150 Nether bricks."
+    - "&8■ &7Цель: &bДобудьте 150 Незерские кирпичи."
+    - "&8■ &7Прогресс: &b{mine:progress}/150 Незерские кирпичи."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a750&7."

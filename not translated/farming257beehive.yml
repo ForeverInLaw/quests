@@ -7,8 +7,8 @@ tasks:
 display:
   name: "&dFarming Quest &8▪ &7Bee Hives"
   lore-normal:
-    - "&8You need to place a certain"
-    - "&8block before receiving the reward."
+    - "&8Вам необходимо поставить определенный"
+    - "&8блок перед получением награды."
     - ""
     - "&dОпции:"
     - "&8■ &7Цель: &dPlace 10 Bee Hives."

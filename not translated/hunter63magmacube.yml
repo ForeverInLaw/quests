@@ -4,14 +4,14 @@ tasks:
     amount: 96
     mob: MAGMA_CUBE
 display:
-  name: "&cHunter Quest &8▪ &7Magma Cube #3"  
+  name: "&cHunter Quest &8▪ &7Магмовый куб #3"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 96 Magma Cubes."
-    - "&8■ &7Прогресс: &c{kill:progress}/96 magma cubes."
+    - "&8■ &7Цель: &cУбейте 96 Магмовых кубов."
+    - "&8■ &7Прогресс: &c{kill:progress}/96 Магмовых кубов."
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."

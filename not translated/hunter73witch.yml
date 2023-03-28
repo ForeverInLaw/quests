@@ -4,13 +4,13 @@ tasks:
     amount: 16
     mob: WITCH
 display:
-  name: "&cHunter Quest &8▪ &7Witch"  
+  name: "&cHunter Quest &8▪ &7Ведьма"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 16 Witches."
+    - "&8■ &7Цель: &cУбейте 16 Ведьм."
     - "&8■ &7Прогресс: &c{kill:progress}/16 witches."
     - ""
     - "&cНаграды:"

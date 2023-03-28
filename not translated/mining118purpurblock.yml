@@ -7,11 +7,11 @@ tasks:
 display:
   name: "&bMining Quest &8▪ &7Purpur Block #2" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 100 Purpur Block."
+    - "&8■ &7Цель: &bДобудьте 100 Purpur Block."
     - "&8■ &7Прогресс: &b{mine:progress}/100 purpur block."
     - ""
     - "&bНаграды:"

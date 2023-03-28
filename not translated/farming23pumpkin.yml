@@ -5,14 +5,14 @@ tasks:
     block: "PUMPKIN"
     reverse-if-placed: true    
 display:
-  name: "&dFarming Quest &8▪ &7Pumpkin #3"
+  name: "&dFarming Quest &8▪ &7Тыква #3"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&dОпции:"
-    - "&8■ &7Цель: &dHarvest 576 pumpkin."
-    - "&8■ &7Прогресс: &d{harvest:progress}/576 pumpkin."
+    - "&8■ &7Цель: &dСоберите 576 Тыква."
+    - "&8■ &7Прогресс: &d{harvest:progress}/576 Тыква."
     - ""
     - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a1500&7."

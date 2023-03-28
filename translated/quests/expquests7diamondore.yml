@@ -1,0 +1,46 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 200
+    block: DIAMOND_ORE
+    reverse-if-placed: true
+display:
+  name: "&aКвесты с опытом &8▪ &7Алмазная руда"
+  lore-normal:
+    - "&8Вы должны намайнить определенные"
+    - "&8ресурсы перед получением вознаграждения."
+    - ""
+    - "&aОпции:"
+    - "&8■ &7Цель: &aДобудьте 200 Алмазная руда."
+    - "&8■ &7Прогресс: &a{mine:progress}/200 Алмазная руда."
+    - ""
+    - "&aНаграды:"
+    - "&8■ &7Вы получите &d2045 опыта&7."
+    - ""
+  lore-started:
+    - "&e▲ Квест был начат."
+  type: "DIAMOND_ORE"
+# Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
+startstring:
+  - "&7По завершении этого задания вы будете вознаграждены"
+  - " &8■ &d2045 exp"
+rewards:
+  - "exp {player} add 2045"
+# Here you can list messages which will be sent to the player (if they are online) upon completion.
+rewardstring:
+  - " &8■ &d2045 exp &7было добавлено к вашему игровому балансу."
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+#### TOOSIE NOTE: I removed this section to get rid of all errors when doing /quests a reload.
+ #### I will add it only to people who need it, so contact me on discord if you do.
+
+options:
+  category: "expquests"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 7

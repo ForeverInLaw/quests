@@ -5,14 +5,14 @@ tasks:
     block: LAPIS_ORE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Lapis Ore #2" 
+  name: "&bMining Quest &8▪ &7Лазуритовая руда #2" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 100 Lapis Ore."
-    - "&8■ &7Прогресс: &b{mine:progress}/100 Lapis ore."
+    - "&8■ &7Цель: &bДобудьте 100 Лазуритовая руда."
+    - "&8■ &7Прогресс: &b{mine:progress}/100 Лазуритовая руда."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."

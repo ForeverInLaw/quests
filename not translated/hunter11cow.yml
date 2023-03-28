@@ -4,14 +4,14 @@ tasks:
     amount: 150
     mob: COW
 display:
-  name: "&cHunter Quest &8▪ &7Cow #3"  
+  name: "&cHunter Quest &8▪ &7Корова #3"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 150 Cows."
-    - "&8■ &7Прогресс: &c{kill:progress}/150 cows."
+    - "&8■ &7Цель: &cУбейте 150 Коров."
+    - "&8■ &7Прогресс: &c{kill:progress}/150 Коров."
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1000&7."

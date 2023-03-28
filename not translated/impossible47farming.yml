@@ -5,11 +5,11 @@ tasks:
 display:
   name: "&4Impossible Quest &8▪ &7Farming Crops"
   lore-normal:
-    - "&8You need to harvest a certain amount"
+    - "&8Вам нужно собрать определенные урожайные amount"
     - "&8of crops before receiving the reward."
     - ""
     - "&4Опции:"
-    - "&8■ &7Цель: &4Harvest 5660 crops."
+    - "&8■ &7Цель: &4Соберите 5660 crops."
     - "&8■ &7Прогресс: &4{farming:progress}/5660 crops."
     - ""
     - "&4Награды:"

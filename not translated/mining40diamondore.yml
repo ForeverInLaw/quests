@@ -5,14 +5,14 @@ tasks:
     block: DIAMOND_ORE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Diamond Ore #4" 
+  name: "&bMining Quest &8▪ &7Алмазная руда #4" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 200 Diamond Ore."
-    - "&8■ &7Прогресс: &b{mine:progress}/200 Diamond ore."
+    - "&8■ &7Цель: &bДобудьте 200 Алмазная руда."
+    - "&8■ &7Прогресс: &b{mine:progress}/200 Алмазная руда."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."

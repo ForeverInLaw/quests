@@ -5,14 +5,14 @@ tasks:
     block: GLOWSTONE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Glowstone #2" 
+  name: "&bMining Quest &8▪ &7Светокамень #2" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 100 Glowstone."
-    - "&8■ &7Прогресс: &b{mine:progress}/100 Glowstone."
+    - "&8■ &7Цель: &bДобудьте 100 Светокамень."
+    - "&8■ &7Прогресс: &b{mine:progress}/100 Светокамень."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."

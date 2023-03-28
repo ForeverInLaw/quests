@@ -5,14 +5,14 @@ tasks:
     block: "SUGAR_CANE"
     reverse-if-placed: true    
 display:
-  name: "&dFarming Quest &8▪ &7Sugarcanes #2"
+  name: "&dFarming Quest &8▪ &7Сахарный тростник #2"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&dОпции:"
-    - "&8■ &7Цель: &dHarvest 384 sugarcane."
-    - "&8■ &7Прогресс: &d{harvest:progress}/384 sugarcane."
+    - "&8■ &7Цель: &dСоберите 384 Сахарный тростник"
+    - "&8■ &7Прогресс: &d{harvest:progress}/384 Сахарный тростник"
     - ""
     - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a500&7."

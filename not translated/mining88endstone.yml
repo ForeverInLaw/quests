@@ -5,14 +5,14 @@ tasks:
     block: END_STONE
     reverse-if-placed: true
 display:
-  name: "&bMining Quest &8▪ &7Endstone #4" 
+  name: "&bMining Quest &8▪ &7Эндерняк #4" 
   lore-normal:
-    - "&8You need to mine a certain"
+    - "&8Вы должны намайнить определенные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&bОпции:"
-    - "&8■ &7Цель: &bMine 9600 Endstone."
-    - "&8■ &7Прогресс: &b{mine:progress}/9600 Endstone."
+    - "&8■ &7Цель: &bДобудьте 9600 Эндерняк."
+    - "&8■ &7Прогресс: &b{mine:progress}/9600 Эндерняк."
     - ""
     - "&bНаграды:"
     - "&8■ &7Вы получите &a&l$&a8000&7."

@@ -4,14 +4,14 @@ tasks:
     amount: 200
     mob: RABBIT
 display:
-  name: "&cHunter Quest &8▪ &7Rabbit #4"  
+  name: "&cHunter Quest &8▪ &7Кролик #4"  
   lore-normal:
-    - "&8You need to kill a certain"
-    - "&8entity before receiving the reward."
+    - "&8Вам нужно убить определенное"
+    - "&8существо для получения награды."
     - ""
     - "&cОпции:"
-    - "&8■ &7Цель: &cKill 200 Rabbits."
-    - "&8■ &7Прогресс: &c{kill:progress}/200 rabbits."
+    - "&8■ &7Цель: &cУбейте 200 Кроликов."
+    - "&8■ &7Прогресс: &c{kill:progress}/200 Кроликов."
     - ""
     - "&cНаграды:"
     - "&8■ &7Вы получите &a&l$&a1250&7."

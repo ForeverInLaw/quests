@@ -4,14 +4,14 @@ tasks:
     amount: 50
     block: "POTATOES"
 display:
-  name: "&dFarming Quest &8▪ &7Potatoes"
+  name: "&dFarming Quest &8▪ &7Картофель"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&dОпции:"
-    - "&8■ &7Цель: &dHarvest 50 potato crops."
-    - "&8■ &7Прогресс: &d{harvest:progress}/50 potato crops."
+    - "&8■ &7Цель: &dСоберите 50 Картофель."
+    - "&8■ &7Прогресс: &d{harvest:progress}/50 Картофель."
     - ""
     - "&dНаграды:"
     - "&8■ &7Вы получите &a&l$&a150&7."

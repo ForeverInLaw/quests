@@ -5,14 +5,14 @@ tasks:
     block: "WHEAT"
     reverse-if-placed: true    
 display:
-  name: "&4Impossible Quest &8▪ &7Wheat"
+  name: "&4Impossible Quest &8▪ &7Пшеница"
   lore-normal:
-    - "&8You need to harvest a certain"
+    - "&8Вам нужно собрать определенные урожайные"
     - "&8ресурсы перед получением вознаграждения."
     - ""
     - "&4Опции:"
-    - "&8■ &7Цель: &4Harvest 2304 wheat."
-    - "&8■ &7Прогресс: &4{harvest:progress}/2304 wheat."
+    - "&8■ &7Цель: &4Соберите 2304 Пшеница."
+    - "&8■ &7Прогресс: &4{harvest:progress}/2304 Пшеница."
     - ""
     - "&4Награды:"
     - "&8■ &7Вы получите &a&l$&a3500&7."
