@@ -1,34 +1,35 @@
 tasks:
-  dig:
-    type: "blockbreakcertain"
-    amount: 768
-    block: DIRT
-    reverse-if-placed: true
+  craft:
+    type: "inventory"
+    item: SHIELD
+    amount: 1
+    remove-items-when-complete: true
+    update-progress: true
 display:
-  name: "&eКвесты с копанием &8▪ &7Земля #4" 
+  name: "&8Квесты оружейника &8▪ &7Щит" 
   lore-normal:
-    - "&8Вам нужно выкопать определенное количество"
-    - "&8блоков перед получением награды."
+    - "&8Необходимо изготовить определенное количество"
+    - "&8предметов перед получением награды."
     - ""
-    - "&eОпции:"
-    - "&8■ &7Цель: &eНакопайте 768 Земля."
-    - "&8■ &7Прогресс: &e{dig:progress}/768 Земля."
+    - "&8Опции:"
+    - "&8■ &7Цель: &8Craft 1 Щит"
+    - "&8■ &7Прогресс: &8{craft:progress}/1 Щит"
     - ""
-    - "&eНаграды:"
-    - "&8■ &7Вы получите &a&l$&a1250&7."
+    - "&8Награды:"
+    - "&8■ &7Вы получите &a&l$&a50&7."
     - ""
   lore-started:
     - "&e▲ Квест был начат."
-  type: "DIRT"
+  type: "SHIELD"
 # Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
 startstring:
   - "&7По завершении этого задания вы будете вознаграждены"
-  - " &8■ &a&l$&a1250"
+  - " &8■ &a&l$&a50"
 rewards:
-  - "cmi money give {player} 1250"
+  - "cmi money give {player} 50"
 # Here you can list messages which will be sent to the player (if they are online) upon completion.
 rewardstring:
-  - " &8■ &a&l$&a1250 &7было добавлено к вашему игровому балансу."
+  - " &8■ &a&l$&a50 &7было добавлено к вашему игровому балансу."
 
 # These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
 # They are useful for putting information about the players tracked quest on a scoreboard
@@ -37,11 +38,10 @@ rewardstring:
  #### I will add it only to people who need it, so contact me on discord if you do.
 
 options:
-  category: "digging"
-  requires:
-    - "digging7dirt"
+  category: "weaponsmith"
+  requires: []
   repeatable: false
   cooldown:
     enabled: true
     time: 82600
-  sort-order: 8
+  sort-order: 47

@@ -1,34 +1,33 @@
 tasks:
-  dig:
-    type: "blockbreakcertain"
-    amount: 768
-    block: DIRT
-    reverse-if-placed: true
+  misc:
+    type: "bucketempty"
+    bucket: LAVA_BUCKET
+    amount: 16
 display:
-  name: "&eКвесты с копанием &8▪ &7Земля #4" 
+  name: "&6Разные квесты &8▪ &7Осушите ведро с лавой #2" 
   lore-normal:
-    - "&8Вам нужно выкопать определенное количество"
-    - "&8блоков перед получением награды."
+    - "&8Вам необходимо сделать что-либо"
+    - "&8для получения награды."
     - ""
-    - "&eОпции:"
-    - "&8■ &7Цель: &eНакопайте 768 Земля."
-    - "&8■ &7Прогресс: &e{dig:progress}/768 Земля."
+    - "&6Опции:"
+    - "&8■ &7Цель: &6Осушите 16 ведер лавы."
+    - "&8■ &7Прогресс: &6{misc:progress}/16 ведер"
     - ""
-    - "&eНаграды:"
-    - "&8■ &7Вы получите &a&l$&a1250&7."
+    - "&6Награды:"
+    - "&8■ &7Вы получите &a&l$&a320&7."
     - ""
   lore-started:
     - "&e▲ Квест был начат."
-  type: "DIRT"
+  type: "LAVA_BUCKET"
 # Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
 startstring:
   - "&7По завершении этого задания вы будете вознаграждены"
-  - " &8■ &a&l$&a1250"
+  - " &8■ &a&l$&a320"
 rewards:
-  - "cmi money give {player} 1250"
+  - "cmi money give {player} 320"
 # Here you can list messages which will be sent to the player (if they are online) upon completion.
 rewardstring:
-  - " &8■ &a&l$&a1250 &7было добавлено к вашему игровому балансу."
+  - " &8■ &a&l$&a320 &7было добавлено к вашему игровому балансу."
 
 # These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
 # They are useful for putting information about the players tracked quest on a scoreboard
@@ -37,11 +36,11 @@ rewardstring:
  #### I will add it only to people who need it, so contact me on discord if you do.
 
 options:
-  category: "digging"
+  category: "misc"
   requires:
-    - "digging7dirt"
+    - "misc15lavabucket"
   repeatable: false
   cooldown:
     enabled: true
     time: 82600
-  sort-order: 8
+  sort-order: 16

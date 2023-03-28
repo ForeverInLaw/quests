@@ -1,34 +1,34 @@
 tasks:
-  dig:
+  mine:
     type: "blockbreakcertain"
-    amount: 768
-    block: DIRT
+    amount: 100
+    block: "NETHER_GOLD_ORE"
     reverse-if-placed: true
 display:
-  name: "&eКвесты с копанием &8▪ &7Земля #4" 
+  name: "&bШахтерский квест &8▪ &7Незерская золотая руда #2" 
   lore-normal:
-    - "&8Вам нужно выкопать определенное количество"
-    - "&8блоков перед получением награды."
+    - "&8Вы должны намайнить определенные"
+    - "&8ресурсы перед получением вознаграждения."
     - ""
-    - "&eОпции:"
-    - "&8■ &7Цель: &eНакопайте 768 Земля."
-    - "&8■ &7Прогресс: &e{dig:progress}/768 Земля."
+    - "&bОпции:"
+    - "&8■ &7Цель: &bДобудьте 100 Незерская золотая руда."
+    - "&8■ &7Прогресс: &b{mine:progress}/100 Незерская золотая руда."
     - ""
-    - "&eНаграды:"
-    - "&8■ &7Вы получите &a&l$&a1250&7."
+    - "&bНаграды:"
+    - "&8■ &7Вы получите &a&l$&a500&7."
     - ""
   lore-started:
     - "&e▲ Квест был начат."
-  type: "DIRT"
+  type: "NETHER_GOLD_ORE"
 # Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
 startstring:
   - "&7По завершении этого задания вы будете вознаграждены"
-  - " &8■ &a&l$&a1250"
+  - " &8■ &a&l$&a500"
 rewards:
-  - "cmi money give {player} 1250"
+  - "cmi money give {player} 500"
 # Here you can list messages which will be sent to the player (if they are online) upon completion.
 rewardstring:
-  - " &8■ &a&l$&a1250 &7было добавлено к вашему игровому балансу."
+  - " &8■ &a&l$&a500 &7было добавлено к вашему игровому балансу."
 
 # These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
 # They are useful for putting information about the players tracked quest on a scoreboard
@@ -37,11 +37,11 @@ rewardstring:
  #### I will add it only to people who need it, so contact me on discord if you do.
 
 options:
-  category: "digging"
+  category: "mining"
   requires:
-    - "digging7dirt"
+    - "mining121nethergoldore"
   repeatable: false
   cooldown:
     enabled: true
     time: 82600
-  sort-order: 8
+  sort-order: 122

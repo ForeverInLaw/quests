@@ -1,34 +1,36 @@
 tasks:
-  dig:
-    type: "blockbreakcertain"
-    amount: 768
-    block: DIRT
-    reverse-if-placed: true
+  misc:
+    type: "position"
+    x: 9200
+    y: 70
+    z: 9200
+    world: world
+    distance-padding: 10
 display:
-  name: "&eКвесты с копанием &8▪ &7Земля #4" 
+  name: "&6Разные квесты &8▪ &7Путешествие #4" 
   lore-normal:
-    - "&8Вам нужно выкопать определенное количество"
-    - "&8блоков перед получением награды."
+    - "&8Вам необходимо сделать что-либо"
+    - "&8для получения награды."
     - ""
-    - "&eОпции:"
-    - "&8■ &7Цель: &eНакопайте 768 Земля."
-    - "&8■ &7Прогресс: &e{dig:progress}/768 Земля."
+    - "&6Опции:"
+    - "&8■ &7Цель: &Пройдите к x9200 y70 z9200."
+    - "&8■ &7Прогресс: &6N/A"
     - ""
-    - "&eНаграды:"
-    - "&8■ &7Вы получите &a&l$&a1250&7."
+    - "&6Награды:"
+    - "&8■ &7Вы получите &a&l$&a3000&7."
     - ""
   lore-started:
     - "&e▲ Квест был начат."
-  type: "DIRT"
+  type: "COMPASS"
 # Here you can list messages which will be sent to the player (if they are online) upon the quest starting.
 startstring:
   - "&7По завершении этого задания вы будете вознаграждены"
-  - " &8■ &a&l$&a1250"
+  - " &8■ &a&l$&a3000"
 rewards:
-  - "cmi money give {player} 1250"
+  - "cmi money give {player} 3000"
 # Here you can list messages which will be sent to the player (if they are online) upon completion.
 rewardstring:
-  - " &8■ &a&l$&a1250 &7было добавлено к вашему игровому балансу."
+  - " &8■ &a&l$&a3000 &7было добавлено к вашему игровому балансу."
 
 # These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
 # They are useful for putting information about the players tracked quest on a scoreboard
@@ -37,11 +39,11 @@ rewardstring:
  #### I will add it only to people who need it, so contact me on discord if you do.
 
 options:
-  category: "digging"
+  category: "misc"
   requires:
-    - "digging7dirt"
+    - "misc11travel"
   repeatable: false
   cooldown:
     enabled: true
     time: 82600
-  sort-order: 8
+  sort-order: 12
